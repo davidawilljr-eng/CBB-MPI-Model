@@ -136,15 +136,13 @@ def run_simulations(n_sims=5000):
     np.add.at(conf_w, (slice(None), away_idx[conf_mask]), ~home_wins[:, conf_mask])
     np.add.at(conf_l, (slice(None), away_idx[conf_mask]), home_wins[:, conf_mask])
 
-        auto_bids = np.zeros((n_sims, n_teams), dtype=bool)
+    auto_bids = np.zeros((n_sims, n_teams), dtype=bool)
     for conf, group in ratings.groupby("Conference"):
         c_idx = np.array([team_to_idx[t] for t in group["Team"]])
-        # Add single-elimination Conference Tournament upset variance
         tourney_chaos = rng.normal(0.0, 3.8, size=(n_sims, len(c_idx)))
         c_scores = conf_w[:, c_idx] + (mpis[c_idx] * 0.25) + tourney_chaos
         winners = c_idx[np.argmax(c_scores, axis=1)]
         auto_bids[np.arange(n_sims), winners] = True
-
 
     sim_resume = total_w + (mpis * 0.45)
     sim_resume_masked = np.where(auto_bids, -9999.0, sim_resume)
