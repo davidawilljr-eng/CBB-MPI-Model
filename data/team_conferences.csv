@@ -1,0 +1,470 @@
+team,conference
+High Point,big-south
+Liberty,cusa
+Grambling,swac
+NIU,horizon
+App State,sun-belt
+Merrimack,metro
+Queens (NC),asun
+Winthrop,big-south
+IU Indy,horizon
+Mercer,socon
+Murray St.,mvc
+Tennessee St.,ovc
+Middle Tenn.,cusa
+Hofstra,caa
+St. Joseph's (L.I.),skyline
+Nicholls,southland
+South Carolina St.,meac
+UTEP,mountain-west
+Northern Ky.,horizon
+San Jose St.,mountain-west
+UTSA,american
+Princeton,ivy-league
+Carnegie Mellon,uaa
+George Mason,atlantic-10
+UMBC,america-east
+UIC,mvc
+UAB,american
+McNeese,southland
+Michigan,big-ten
+Oakland,horizon
+Florida,sec
+Miami (FL),acc
+Georgia St.,sun-belt
+Bowling Green,mac
+South Dakota,summit-league
+VMI,socon
+Cornell,ivy-league
+Pepperdine,wcc
+Georgetown,big-east
+Loyola Maryland,patriot
+Duke,acc
+Army West Point,patriot
+St. John's (NY),big-east
+Monmouth,caa
+Rice,american
+Temple,american
+Central Conn. St.,nec
+UAlbany,america-east
+Rhode Island Col.,little-east
+Stony Brook,caa
+Old Westbury,skyline
+Butler,big-east
+Lafayette,patriot
+West Florida,asun
+East Carolina,american
+USC Upstate,big-south
+North Carolina,acc
+Western Caro.,socon
+Yale,ivy-league
+Howard,meac
+James Madison,sun-belt
+Miami (OH),mac
+Old Dominion,sun-belt
+Western Mich.,mac
+Coastal Carolina,sun-belt
+Eastern Mich.,mac
+Marist,metro
+Dartmouth,ivy-league
+Wright St.,horizon
+Air Force,mountain-west
+Marshall,sun-belt
+Buffalo,mac
+Dayton,atlantic-10
+NJIT,america-east
+UCF,big-12
+FGCU,asun
+Maryland,big-ten
+Bucknell,patriot
+Indiana,big-ten
+Eastern Ill.,ovc
+Stonehill,nec
+Curry,cne
+UNCW,caa
+Mount Olive,conference-carolinas
+Troy,sun-belt
+Massachusetts,mac
+West Virginia,big-12
+Niagara,metro
+SIUE,ovc
+Eureka,sliac
+Brown,ivy-league
+New Hampshire,america-east
+Providence,big-east
+Maine,america-east
+Columbia,ivy-league
+Elon,caa
+Fla. Atlantic,american
+LIU,nec
+Ga. Southern,sun-belt
+Ball St.,mac
+Harvard,ivy-league
+MIT,newmac
+Clemson,acc
+Stetson,asun
+Detroit Mercy,horizon
+Wayne St. (MI),gliac
+Delaware,cusa
+Notre Dame (MD),united-east
+Indiana St.,mvc
+Charlotte,american
+Iona,metro
+Vermont,america-east
+Pittsburgh,acc
+Rider,metro
+Xavier,big-east
+Mount St. Mary's,metro
+Presbyterian,big-south
+St. Thomas (MN),summit-league
+William & Mary,caa
+Bridgewater (VA),odac
+Syracuse,acc
+New Haven,nec
+VCU,atlantic-10
+Little Rock,uac-
+FIU,cusa
+Sacred Heart,metro
+Coast Guard,newmac
+Cincinnati,big-12
+American,patriot
+Jacksonville,asun
+Michigan St.,big-ten
+Quinnipiac,metro
+Richmond,atlantic-10
+UNC Asheville,big-south
+Texas Tech,big-12
+Jackson St.,swac
+Kennesaw St.,cusa
+Iowa St.,big-12
+Memphis,american
+Eastern Ky.,uac-
+Boston U.,patriot
+Northeastern,caa
+Prairie View,swac
+St. Bonaventure,atlantic-10
+Youngstown St.,horizon
+UMass Lowell,america-east
+Rivier,great-northeast
+South Fla.,american
+Charleston So.,big-south
+Vanderbilt,sec
+Bellarmine,asun
+Morgan St.,meac
+Delaware St.,meac
+Saint Vincent,pac
+Mississippi St.,sec
+Tennessee Tech,socon
+ULM,sun-belt
+Central Mich.,mac
+Nebraska,big-ten
+Le Moyne,nec
+Gonzaga,pac-12
+Purdue,big-ten
+Belmont,mvc
+Southern Ind.,ovc
+Penn St.,big-ten
+Canisius,metro
+Seton Hall,big-east
+Saint Peter's,metro
+NC State,acc
+Campbell,caa
+Longwood,big-south
+Pfeiffer,usa-south
+George Washington,atlantic-10
+Navy,patriot
+Marquette,big-east
+Mercyhurst,nec
+Southeast Mo. St.,ovc
+Lipscomb,asun
+Western Ky.,cusa
+Morehead St.,ovc
+Wisconsin,big-ten
+Denver,wcc
+Louisiana Tech,sun-belt
+Kent St.,mac
+Georgia,sec
+N.C. Central,meac
+SFA,southland
+Lyon,sliac
+Green Bay,horizon
+Lawrence,mwc
+Samford,socon
+Berry,saa
+Col. of Charleston,caa
+Southern Wesleyan,conference-carolinas
+TCU,big-12
+Lindenwood,ovc
+Louisiana,sun-belt
+Akron,mac
+Furman,socon
+Bethune-Cookman,swac
+Austin Peay,uac-
+Lane,siac
+Arkansas St.,sun-belt
+Toledo,mac
+SMU,acc
+Southern U.,swac
+Wake Forest,acc
+UMES,meac
+California,acc
+Adams St.,rmac
+Norfolk St.,meac
+Regent,c2c
+Bradley,mvc
+Monmouth (IL),mwc
+Oklahoma,sec
+East Texas A&M,southland
+Valparaiso,mvc
+Western Ill.,ovc
+Utah Valley,big-west
+Western Colo.,rmac
+Tarleton St.,uac-
+Cameron,lone-star
+Tulsa,american
+Tulane,american
+UT Martin,ovc
+UT Arlington,uac-
+Northwestern,big-ten
+Binghamton,america-east
+Portland,wcc
+Willamette,nwc
+DePaul,big-east
+West Ga.,uac-
+North Dakota St.,summit-league
+Minn.-Crookston,nsic
+Bryant,america-east
+Siena,metro
+Kansas,big-12
+Fordham,atlantic-10
+Saint Louis,atlantic-10
+Lehigh,patriot
+Texas St.,pac-12
+A&M-Corpus Christi,southland
+Illinois,big-ten
+FDU,nec
+Southern Ill.,mvc
+Maryville (MO),glvc
+South Alabama,sun-belt
+Ohio,mac
+Loyola Chicago,atlantic-10
+The Citadel,socon
+Creighton,big-east
+Kansas City,summit-league
+Evansville,mvc
+Omaha,summit-league
+Southern Miss.,sun-belt
+Alabama A&M,swac
+Ole Miss,sec
+Alcorn,swac
+Florida A&M,swac
+Florida St.,acc
+Jacksonville St.,cusa
+LaGrange,ccs
+Lamar University,southland
+Schreiner,asc
+Central Ark.,uac-
+Oral Roberts,summit-league
+North Texas,american
+UTRGV,southland
+Tex. A&M-Kingsville,lone-star
+UConn,big-east
+Gardner-Webb,big-south
+Utah,big-12
+Long Beach St.,big-west
+Minnesota,big-ten
+North Dakota,summit-league
+Texas,sec
+Chicago St.,nec
+BYU,big-12
+Ohio St.,big-ten
+Houston,big-12
+La Salle,atlantic-10
+Louisville,acc
+Chattanooga,socon
+Oklahoma St.,big-12
+UIW,southland
+UC Santa Barbara,big-west
+San Fran. St.,ccaa
+Grand Canyon,mountain-west
+Texas Southern,swac
+Washington St.,pac-12
+Davidson,atlantic-10
+Colorado,big-12
+Abilene Christian,uac-
+New Mexico,mountain-west
+Utah Tech,big-sky
+Fresno St.,pac-12
+Fresno Pacific,ccaa
+Baylor,big-12
+Northwestern St.,southland
+Utah St.,pac-12
+Idaho St.,big-sky
+Northern Colo.,big-sky
+Colorado Col.,scac
+Oregon St.,pac-12
+Weber St.,big-sky
+San Diego,wcc
+Biola,pacwest
+Nevada,mountain-west
+Robert Morris,horizon
+Arizona,big-12
+UCLA,big-ten
+Sacramento St.,big-west
+Jessup,pacwest
+Saint Mary's (CA),wcc
+Illinois St.,mvc
+Santa Clara,wcc
+Towson,caa
+Washington,big-ten
+Colgate,patriot
+Arizona St.,big-12
+ETSU,socon
+San Francisco,wcc
+Radford,big-south
+UC Riverside,big-west
+La Verne,sciac
+Oregon,big-ten
+Montana,big-sky
+Stanford,acc
+Eastern Wash.,big-sky
+UC San Diego,big-west
+Whittier,sciac
+Idaho,big-sky
+George Fox,nwc
+UC Davis,mountain-west
+North Ala.,uac-
+Colorado St.,pac-12
+Montana St.,big-sky
+Southern Utah,big-sky
+Southern California,big-ten
+Milwaukee,horizon
+Cal Poly,big-west
+Cal St. San Marcos,ccaa
+Hawaii,mountain-west
+Seattle U,wcc
+Tennessee,sec
+Wofford,socon
+Virginia Tech,acc
+Coppin St.,meac
+Kentucky,sec
+Manhattan,metro
+Rhode Island,atlantic-10
+Holy Cross,patriot
+South Carolina,sec
+Duquesne,atlantic-10
+Purdue Fort Wayne,horizon
+N.C. A&T,caa
+Warren Wilson,c2c
+Georgia Tech,acc
+Hampton,caa
+UNC Greensboro,socon
+Boston College,acc
+Wagner,nec
+Alabama,sec
+Sam Houston,cusa
+Virginia,acc
+Drexel,caa
+Texas A&M,sec
+Alabama St.,swac
+Missouri,sec
+Cleveland St.,horizon
+Kansas St.,big-12
+South Dakota St.,summit-league
+UNI,mvc
+Cornell College,mwc
+Iowa,big-ten
+LSU,sec
+LSU New Orleans ,southland
+Houston Christian,southland
+Arkansas,sec
+Ark.-Pine Bluff,swac
+Missouri St.,cusa
+Lincoln (MO),glvc
+New Mexico St.,cusa
+Western N.M.,lone-star
+Wyoming,mountain-west
+Regis (CO),rmac
+California Baptist,big-west
+North Florida,asun
+San Diego St.,pac-12
+Cal St. Fullerton,big-west
+Portland St.,big-sky
+Lewis & Clark,nwc
+UNLV,mountain-west
+Northern Ariz.,big-sky
+Pacific,wcc
+UC Irvine,big-west
+Chapman,sciac
+Framingham St.,mascac
+Saint Joseph's,atlantic-10
+Concordia Chicago,nacc
+Erskine,conference-carolinas
+Wichita St.,american
+CSUN,big-west
+Drake,mvc
+Central (IA),american-rivers
+Webster,sliac
+Auburn,sec
+Southeastern La.,southland
+Randolph,odac
+Boise St.,pac-12
+LMU (CA),wcc
+Mt. St. Mary (NY),skyline
+King's (PA),mac-freedom
+Kalamazoo,michigan-intercol. ath. assn.
+Notre Dame,acc
+Fairfield,metro
+Howard Payne,asc
+Fort Valley St.,siac
+Southern Va.,usa-south
+Centre,saa
+Ky. Wesleyan,g-mac
+Union (TN),gulf-south
+Ark.-Monticello,gac
+Central St. (OH),siac
+Penn,ivy-league
+Menlo,ccaa
+CSU Bakersfield,big-west
+Alma,michigan-intercol. ath. assn.
+Villanova,big-east
+Newberry,sac
+Roberts Wesleyan,ecc
+Rutgers,big-ten
+Texas Lutheran,scac
+Mississippi Val.,swac
+Truman St.,glvc
+MUW,sliac
+CCNY,cunyac
+Albion,michigan-intercol. ath. assn.
+Northwestern Okla.,gac
+Ripon,mwc
+UChicago,uaa
+Allen,siac
+Keuka,empire-8
+Hiram,pac
+McDaniel,centennial
+Washington Col.,centennial
+Covenant,ccs
+Elmira,empire-8
+Simpson,american-rivers
+Muskingum,oac
+St. Mary's (MD),united-east
+Millsaps,saa
+Livingstone,ciaa
+UT Dallas ,lone-star
+Newman,mid-america-intercollegiate
+Thomas (ME),north-atlantic
+Wm. Paterson,njac
+Centenary (LA),scac
+Lees-McRae,conference-carolinas
+Franklin,hcac
+Misericordia,mac-freedom
+Blackburn,sliac
+Macalester,miac
+JWU (Providence),cne
+Mary Baldwin,usa-south
+Kentucky St.,siac
+Plattsburgh St.,sunyac
+Shenandoah,odac
+Earlham,hcac
