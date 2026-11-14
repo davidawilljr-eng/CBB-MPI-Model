@@ -11,7 +11,6 @@ D1_CONFERENCES = {
     "socon", "southland", "summit-league", "swac", "america-east", "asun"
 }
 
-# Realistic Conference Strength Priors (MPI points above/below D1 average)
 CONF_PRIORS = {
     "sec": 10.5,
     "big-ten": 10.0,
@@ -49,7 +48,6 @@ CONF_PRIORS = {
     "meac": -12.0,
 }
 
-# Preseason Top-25 / Elite Program Boosts (on top of conference prior)
 TEAM_BOOSTS = {
     "Duke": 14.0, "Kansas": 13.5, "UConn": 13.5, "Houston": 13.5,
     "Florida": 12.5, "Alabama": 12.5, "Auburn": 12.0, "Iowa St.": 12.0,
@@ -68,7 +66,7 @@ TEAM_BOOSTS = {
 
 
 def build_ratings():
-    print("📊 Calculating Calibrated MPI with Preseason & Conference Priors...")
+    print("📊 Calculating Calibrated MPI, WAB, and 3-Decimal SOS Win %...")
     info_df = pd.read_csv("data/game_info.csv")
     stats_df = pd.read_csv("data/team_game_stats.csv")
     conf_df = pd.read_csv("data/team_conferences.csv")
@@ -118,7 +116,6 @@ def build_ratings():
     df["raw_de"] = (df["pts_opp"] / df["poss"]) * 100.0
     df["win"] = (df["pts_team"] > df["pts_opp"]).astype(int)
 
-    # Diminishing returns on huge blowouts (> 22 pts per 100 poss)
     margin = df["raw_oe"] - df["raw_de"]
     excess = np.maximum(0.0, np.abs(margin) - 22.0)
     capped_margin = np.where(
@@ -143,9 +140,7 @@ def build_ratings():
     nat_avg = df["raw_oe"].mean()
     teams = pd.DataFrame({"Team": d1_teams})
 
-    # Build team-specific Preseason Prior (split evenly between Offense & Defense)
-    prior_oe = {}
-    prior_de = {}
+    prior_oe, prior_de = {}, {}
     for t in d1_teams:
         c_prior = CONF_PRIORS.get(conf_map.get(t, ""), -3.0)
         t_boost = TEAM_BOOSTS.get(t, 0.0)
@@ -155,8 +150,6 @@ def build_ratings():
 
     adj_oe = prior_oe.copy()
     adj_de = prior_de.copy()
-
-    # Prior weight = 8 games (naturally fades out as teams play 20-30 games)
     PRIOR_GAMES = 8.0
 
     for _ in range(25):
@@ -205,15 +198,18 @@ def build_ratings():
 
     teams = teams.sort_values("MPI", ascending=False).reset_index(drop=True)
     teams["Rank"] = teams.index + 1
-    bubble_mpi = teams.iloc[41:48]["MPI"].mean()
+
+    # Bubble Baseline around the 76-team cutline (#50 to #58 overall)
+    bubble_mpi = teams.iloc[49:58]["MPI"].mean()
     top_40_teams = set(teams.iloc[:40]["Team"])
     mpi_map = dict(zip(teams["Team"], teams["MPI"]))
 
     records, sos_list, wab_list, qw_list = [], [], [], []
     for team in teams["Team"]:
         t_games = df[df["team_team"] == team]
+        n_played = len(t_games)
         wins = int(t_games["win"].sum())
-        losses = int(len(t_games) - wins)
+        losses = int(n_played - wins)
         records.append(f"{wins}-{losses}")
 
         exp_bubble_wins = 0.0
@@ -223,7 +219,11 @@ def build_ratings():
             win_prob = norm.cdf(exp_margin / 11.0)
             exp_bubble_wins += win_prob
 
-        sos_list.append(round(exp_bubble_wins, 2))
+        # SOS as 3-decimal Expected Bubble Win % (lower = tougher schedule)
+        sos_pct = round(exp_bubble_wins / n_played, 3) if n_played > 0 else 0.500
+        sos_list.append(sos_pct)
+
+        # WAB remains cumulative (Actual Wins - Expected Bubble Wins)
         wab_list.append(round(wins - exp_bubble_wins, 2))
 
         q_games = t_games[t_games["team_opp"].isin(top_40_teams)]
@@ -237,10 +237,10 @@ def build_ratings():
     teams["Quality Wins"] = qw_list
 
     teams.to_csv("data/ratings.csv", index=False)
-    print("✅ Saved calibrated data/ratings.csv! New Top 15:")
+    print("✅ Saved data/ratings.csv with 3-decimal SOS Win %!")
     print(
         teams[
-            ["Rank", "Team and Record", "MPI", "Off. Eff.", "Def. Eff.", "WAB", "Quality Wins"]
+            ["Rank", "Team and Record", "MPI", "WAB", "SOS", "Quality Wins"]
         ]
         .head(15)
         .to_string(index=False)
