@@ -81,7 +81,7 @@ def run_simulations(n_sims=5000):
     daily_df.to_csv("data/daily_projections.csv", index=False)
     print(f"📅 Saved {len(daily_df)} game projections to data/daily_projections.csv")
 
-    # 2. MONTE CARLO SEASON SIMULATIONS
+    # 2. MONTE CARLO SEASON SIMULATIONS WITH RATING DRIFT
     rng = np.random.default_rng(42)
     teams = ratings["Team"].tolist()
     n_teams = len(teams)
@@ -112,9 +112,14 @@ def run_simulations(n_sims=5000):
     is_conf = np.array(conf_list)
     is_neut = np.array(neut_list)
 
-    mpis = ratings["MPI"].values
+    # Simulate season-long form drift (+/- 3.8 MPI std dev for injuries, slumps, or breakouts)
+    base_mpis = ratings["MPI"].values
+    sim_mpis = base_mpis + rng.normal(0.0, 3.8, size=(n_sims, n_teams))
+
     hca_vec = np.where(is_neut, 0.0, HCA_PTS)
-    margins = ((mpis[home_idx] - mpis[away_idx]) * (AVG_PACE / 100.0)) + hca_vec
+    margins = (
+        (sim_mpis[:, home_idx] - sim_mpis[:, away_idx]) * (AVG_PACE / 100.0)
+    ) + hca_vec
     win_probs = norm.cdf(margins / STD_DEV)
 
     rand_draws = rng.random((n_sims, len(rem_games)))
@@ -140,11 +145,11 @@ def run_simulations(n_sims=5000):
     for conf, group in ratings.groupby("Conference"):
         c_idx = np.array([team_to_idx[t] for t in group["Team"]])
         tourney_chaos = rng.normal(0.0, 3.8, size=(n_sims, len(c_idx)))
-        c_scores = conf_w[:, c_idx] + (mpis[c_idx] * 0.25) + tourney_chaos
+        c_scores = conf_w[:, c_idx] + (sim_mpis[:, c_idx] * 0.25) + tourney_chaos
         winners = c_idx[np.argmax(c_scores, axis=1)]
         auto_bids[np.arange(n_sims), winners] = True
 
-    sim_resume = total_w + (mpis * 0.45)
+    sim_resume = total_w + (sim_mpis * 0.45)
     sim_resume_masked = np.where(auto_bids, -9999.0, sim_resume)
     at_large_idx = np.argpartition(-sim_resume_masked, 37, axis=1)[:, :37]
 
@@ -155,8 +160,10 @@ def run_simulations(n_sims=5000):
     avg_l = np.round(total_l.mean(axis=0)).astype(int)
     avg_cw = np.round(conf_w.mean(axis=0)).astype(int)
     avg_cl = np.round(conf_l.mean(axis=0)).astype(int)
-    conf_win_pct = np.round(auto_bids.mean(axis=0) * 100, 1)
-    tourney_pct = np.round(in_tourney.mean(axis=0) * 100, 1)
+
+    # Cap display odds between 0.1% and 99.9% so nothing is ever 0.0% or 100.0% in November
+    conf_win_pct = np.clip(np.round(auto_bids.mean(axis=0) * 100, 1), 0.1, 99.9)
+    tourney_pct = np.clip(np.round(in_tourney.mean(axis=0) * 100, 1), 0.1, 99.9)
 
     forecasts = pd.DataFrame(
         {
