@@ -35,7 +35,7 @@ def predict_matchup(
 
 
 def run_simulations(n_sims=5000):
-    print("🎲 Building Daily Projections & Running 5,000 Season Simulations...")
+    print("🎲 Building Daily Projections & Running 5,000 Season Simulations (76-Team Field)...")
     ratings = pd.read_csv("data/ratings.csv")
     todays_games = pd.read_csv("data/todays_games.csv")
 
@@ -149,9 +149,10 @@ def run_simulations(n_sims=5000):
         winners = c_idx[np.argmax(c_scores, axis=1)]
         auto_bids[np.arange(n_sims), winners] = True
 
+    # 76-Team Format: 32 Auto-Bids + Top 44 At-Large Teams
     sim_resume = total_w + (sim_mpis * 0.45)
     sim_resume_masked = np.where(auto_bids, -9999.0, sim_resume)
-    at_large_idx = np.argpartition(-sim_resume_masked, 37, axis=1)[:, :37]
+    at_large_idx = np.argpartition(-sim_resume_masked, 44, axis=1)[:, :44]
 
     in_tourney = auto_bids.copy()
     in_tourney[np.arange(n_sims)[:, None], at_large_idx] = True
@@ -161,7 +162,7 @@ def run_simulations(n_sims=5000):
     avg_cw = np.round(conf_w.mean(axis=0)).astype(int)
     avg_cl = np.round(conf_l.mean(axis=0)).astype(int)
 
-    # Cap display odds between 0.1% and 99.9% so nothing is ever 0.0% or 100.0% in November
+    # Cap display odds between 0.1% and 99.9%
     conf_win_pct = np.clip(np.round(auto_bids.mean(axis=0) * 100, 1), 0.1, 99.9)
     tourney_pct = np.clip(np.round(in_tourney.mean(axis=0) * 100, 1), 0.1, 99.9)
 

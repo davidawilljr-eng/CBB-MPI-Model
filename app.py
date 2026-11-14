@@ -9,10 +9,9 @@ st.set_page_config(
 
 st.title("🏀 College Basketball MPI Analytics & Bracketology")
 st.caption(
-    "Tempo-Free Opponent-Adjusted Efficiency (MPI), WAB, Monte Carlo Season Simulations & 68-Team Bracketology"
+    "Tempo-Free Opponent-Adjusted Efficiency (MPI), WAB, Monte Carlo Season Simulations & 76-Team Bracketology"
 )
 
-# Top Navigation Tabs matching your exact design
 tab1, tab2, tab3, tab4 = st.tabs(
     [
         "📊 Metrics (MPI & WAB)",
@@ -27,7 +26,7 @@ with tab1:
     st.subheader("Team Efficiency & Resume Metrics")
     ratings = pd.read_csv("data/ratings.csv")
 
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns(2)
     with col1:
         confs = ["All Conferences"] + sorted(
             ratings["Conference"].dropna().unique().tolist()
@@ -101,12 +100,14 @@ with tab2:
 
 # --- TAB 3: BRACKETOLOGY ---
 with tab3:
-    st.subheader("NCAA Tournament 68-Team Bracketology")
+    st.subheader("NCAA Tournament 76-Team Bracketology (2027 Format)")
 
-    # Prominent Toggle Switch between Current and Projected Bracket
     bracket_mode = st.radio(
         "Select Bracket View:",
-        ["Current Bracket (Based on Current Resume & MPI)", "Projected Bracket (Based on Season Simulations)"],
+        [
+            "Current Bracket (Based on Current Resume & MPI)",
+            "Projected Bracket (Based on Season Simulations)",
+        ],
         horizontal=True,
     )
 
@@ -115,31 +116,33 @@ with tab3:
     else:
         b_df = pd.read_csv("data/bracket_projected.csv")
 
-    # Quick Bubble Watch Callout Cards
     b_col1, b_col2 = st.columns(2)
     with b_col1:
         st.info(
-            "**Last Four In (First Four Play-In):**\n\n"
+            "**Opening Round (12 At-Large Play-In Teams):**\n\n"
             + "\n".join(
                 f"- {t}"
                 for t in b_df[
-                    b_df["Bubble Status"].str.contains("Last Four In", na=False)
+                    b_df["Bubble Status"].str.contains(
+                        "Opening Round (At-Large", regex=False, na=False
+                    )
                 ]["Team and Record"]
             )
         )
     with b_col2:
         st.warning(
-            "**First Four Out:**\n\n"
+            "**First Four Out (#77–#80):**\n\n"
             + "\n".join(
                 f"- {t}"
                 for t in b_df[
-                    b_df["Bubble Status"].str.contains("First Four Out", na=False)
+                    b_df["Bubble Status"].str.contains(
+                        "First Four Out", na=False
+                    )
                 ]["Team and Record"]
             )
         )
 
-    # Regional Breakdown View
-    reg_tabs = st.tabs(["All Seeds (1-68)", "East", "South", "Midwest", "West"])
+    reg_tabs = st.tabs(["All Seeds (1-76)", "East", "South", "Midwest", "West"])
     with reg_tabs[0]:
         st.dataframe(b_df, use_container_width=True, hide_index=True, height=650)
 
