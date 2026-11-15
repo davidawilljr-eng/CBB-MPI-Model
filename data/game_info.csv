@@ -815,3 +815,5 @@ game_id,date,home_team,away_team,home_score,away_score,neutral_site,game_state,s
 6655852,2026-11-14,Nicholls,Louisiana Tech,71,68,False,final,8:00 PM ET
 6650477,2026-11-14,Belmont,Furman,72,62,False,final,8:30 PM ET
 6650845,2026-11-14,North Dakota,Montana,71,80,False,final,9:00 PM ET
+6651203,2026-11-14,Nevada,Utah Valley,71,73,False,final,10:00 PM ET
+6655209,2026-11-14,Santa Clara,New Mexico,90,85,False,final,10:00 PM ET
