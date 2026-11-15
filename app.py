@@ -16,18 +16,14 @@ all_teams = sorted(ratings["Team"].dropna().unique().tolist())
 if "selected_team" not in st.session_state:
     st.session_state.selected_team = "None (View Full Tables)"
 
-def open_team(team_name):
-    if team_name in all_teams:
-        st.session_state.selected_team = team_name
-
 st.title("🏀 College Basketball MPI Analytics & Bracketology")
 st.caption("Tempo-Free Opponent-Adjusted Efficiency (MPI), WAB, Monte Carlo Season Simulations & 76-Team Bracketology")
 
-nav_col1, nav_col2 = st.columns([3, 1])
+nav_col1, nav_col2 = st.columns([4, 1])
 with nav_col1:
     opts = ["None (View Full Tables)"] + all_teams
     idx = opts.index(st.session_state.selected_team) if st.session_state.selected_team in opts else 0
-    st.session_state.selected_team = st.selectbox("🔍 Inspect Team Profile (or click any row in the tables below):", opts, index=idx)
+    st.session_state.selected_team = st.selectbox("🔍 Inspect Team Profile (Ratings, Projections & Full Game Log):", opts, index=idx)
 
 with nav_col2:
     st.write("")
@@ -84,7 +80,6 @@ tab1, tab2, tab3, tab4 = st.tabs(["📊 Metrics (MPI & WAB)", "🎲 Season Forec
 
 with tab1:
     st.subheader("Team Efficiency & Resume Metrics")
-    st.caption("💡 Click any row to open that team's full profile & schedule.")
     col1, col2 = st.columns(2)
     with col1:
         confs = ["All Conferences"] + sorted(ratings["Conference"].dropna().unique().tolist())
@@ -97,40 +92,25 @@ with tab1:
         view_df = view_df[view_df["Conference"] == selected_conf]
     if search_team:
         view_df = view_df[view_df["Team and Record"].str.contains(search_team, case=False, na=False)]
-    view_df = view_df.reset_index(drop=True)
 
     display_cols = ["Rank", "Team and Record", "MPI", "Off. Eff.", "Def. Eff.", "WAB", "SOS", "Quality Wins"]
-    event1 = st.dataframe(view_df[display_cols], use_container_width=True, hide_index=True, height=600, key="metrics_table")
-    if event1.selection.rows:
-        picked = view_df.iloc[event1.selection.rows[0]]["Team"]
-        if picked != st.session_state.selected_team:
-            open_team(picked)
-            st.rerun()
+    st.dataframe(view_df[display_cols], use_container_width=True, hide_index=True, height=600)
 
 with tab2:
     st.subheader("Monte Carlo Season Forecasts (5,000 Simulations)")
-    st.caption("💡 Click any row to open that team's full profile & schedule.")
     f_confs = ["All Conferences"] + sorted(forecasts["Conference"].dropna().unique().tolist())
     f_conf = st.selectbox("Filter by Conference:", f_confs, key="forecast_conf")
     f_view = forecasts.copy()
     if f_conf != "All Conferences":
         f_view = f_view[f_view["Conference"] == f_conf]
-    f_view = f_view.reset_index(drop=True)
 
     f_cols = ["Rank", "Team and Record", "MPI", "Proj. W-L", "Proj. Conf. W-L", "% to Win Conf.", "% to Make March Madness"]
-    event2 = st.dataframe(f_view[f_cols], use_container_width=True, hide_index=True, height=600, key="forecasts_table")
-    if event2.selection.rows:
-        picked = f_view.iloc[event2.selection.rows[0]]["Team"]
-        if picked != st.session_state.selected_team:
-            open_team(picked)
-            st.rerun()
+    st.dataframe(f_view[f_cols], use_container_width=True, hide_index=True, height=600)
 
 with tab3:
     st.subheader("NCAA Tournament 76-Team Bracketology (2027 Format)")
-    st.caption("💡 Click any row in the seed list to open that team's profile.")
     bracket_mode = st.radio("Select Bracket View:", ["Current Bracket (Based on Current Resume & MPI)", "Projected Bracket (Based on Season Simulations)"], horizontal=True)
     b_df = pd.read_csv("data/bracket_current.csv") if "Current" in bracket_mode else pd.read_csv("data/bracket_projected.csv")
-    b_df["Team"] = b_df["Team and Record"].str.replace(r"\s*\(\d+-\d+\)$", "", regex=True)
 
     b_col1, b_col2 = st.columns(2)
     with b_col1:
@@ -139,27 +119,15 @@ with tab3:
         st.warning("**First Four Out (#77–#80):**\n\n" + "\n".join(f"- {t}" for t in b_df[b_df["Bubble Status"].str.contains("First Four Out", na=False)]["Team and Record"]))
 
     reg_tabs = st.tabs(["All Seeds (1-76)", "East", "South", "Midwest", "West"])
-    b_show_cols = [c for c in b_df.columns if c != "Team"]
     with reg_tabs[0]:
-        event3 = st.dataframe(b_df[b_show_cols], use_container_width=True, hide_index=True, height=650, key="bracket_table")
-        if event3.selection.rows:
-            picked = b_df.iloc[event3.selection.rows[0]]["Team"]
-            if picked != st.session_state.selected_team:
-                open_team(picked)
-                st.rerun()
+        st.dataframe(b_df, use_container_width=True, hide_index=True, height=650)
 
     for idx, region_name in enumerate(["East", "South", "Midwest", "West"], start=1):
         with reg_tabs[idx]:
             reg_df = b_df[b_df["Region"] == region_name].sort_values("Seed")
-            st.dataframe(reg_df[b_show_cols], use_container_width=True, hide_index=True)
+            st.dataframe(reg_df, use_container_width=True, hide_index=True)
 
 with tab4:
     st.subheader("Today's Slate: Game-by-Game Projections")
-    st.caption("💡 Click any game row to inspect the Projected Winner's profile.")
     daily = pd.read_csv("data/daily_projections.csv")
-    event4 = st.dataframe(daily, use_container_width=True, hide_index=True, height=650, key="daily_table")
-    if event4.selection.rows:
-        picked = daily.iloc[event4.selection.rows[0]]["Projected Winner"]
-        if picked != st.session_state.selected_team:
-            open_team(picked)
-            st.rerun()
+    st.dataframe(daily, use_container_width=True, hide_index=True, height=650)
