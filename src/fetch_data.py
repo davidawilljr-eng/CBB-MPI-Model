@@ -111,7 +111,7 @@ def parse_scoreboard_date(date_obj, include_upcoming=False):
 
 def fetch_season_data():
     print("🏀 Fetching 2026-27 College Basketball data via NCAA API...")
-    start_date = datetime.date(2026, 11, 2)
+    start_date = datetime.date(2026, 11, 1)
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
 

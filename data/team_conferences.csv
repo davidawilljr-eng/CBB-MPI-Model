@@ -1,4 +1,6 @@
 team,conference
+Villanova,big-east
+Notre Dame,acc
 High Point,big-south
 Liberty,cusa
 Grambling,swac
@@ -413,7 +415,6 @@ LMU (CA),wcc
 Mt. St. Mary (NY),skyline
 King's (PA),mac-freedom
 Kalamazoo,michigan-intercol. ath. assn.
-Notre Dame,acc
 Fairfield,metro
 Howard Payne,asc
 Fort Valley St.,siac
@@ -427,7 +428,6 @@ Penn,ivy-league
 Menlo,ccaa
 CSU Bakersfield,big-west
 Alma,michigan-intercol. ath. assn.
-Villanova,big-east
 Newberry,sac
 Roberts Wesleyan,ecc
 Rutgers,big-ten
@@ -468,3 +468,6 @@ Kentucky St.,siac
 Plattsburgh St.,sunyac
 Shenandoah,odac
 Earlham,hcac
+Emmanuel (MA),great-northeast
+Capital,oac
+UC Merced,ccaa
