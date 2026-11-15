@@ -100,7 +100,7 @@ with tab1:
     view_df = view_df.reset_index(drop=True)
 
     display_cols = ["Rank", "Team and Record", "MPI", "Off. Eff.", "Def. Eff.", "WAB", "SOS", "Quality Wins"]
-    event1 = st.dataframe(view_df[display_cols], use_container_width=True, hide_index=True, height=600, on_select="rerun", selection_mode="single-row", key="metrics_table")
+    event1 = st.dataframe(view_df[display_cols], use_container_width=True, hide_index=True, height=600, key="metrics_table")
     if event1.selection.rows:
         picked = view_df.iloc[event1.selection.rows[0]]["Team"]
         if picked != st.session_state.selected_team:
@@ -118,7 +118,7 @@ with tab2:
     f_view = f_view.reset_index(drop=True)
 
     f_cols = ["Rank", "Team and Record", "MPI", "Proj. W-L", "Proj. Conf. W-L", "% to Win Conf.", "% to Make March Madness"]
-    event2 = st.dataframe(f_view[f_cols], use_container_width=True, hide_index=True, height=600, on_select="rerun", selection_mode="single-row", key="forecasts_table")
+    event2 = st.dataframe(f_view[f_cols], use_container_width=True, hide_index=True, height=600, key="forecasts_table")
     if event2.selection.rows:
         picked = f_view.iloc[event2.selection.rows[0]]["Team"]
         if picked != st.session_state.selected_team:
@@ -141,7 +141,7 @@ with tab3:
     reg_tabs = st.tabs(["All Seeds (1-76)", "East", "South", "Midwest", "West"])
     b_show_cols = [c for c in b_df.columns if c != "Team"]
     with reg_tabs[0]:
-        event3 = st.dataframe(b_df[b_show_cols], use_container_width=True, hide_index=True, height=650, on_select="rerun", selection_mode="single-row", key="bracket_table")
+        event3 = st.dataframe(b_df[b_show_cols], use_container_width=True, hide_index=True, height=650, key="bracket_table")
         if event3.selection.rows:
             picked = b_df.iloc[event3.selection.rows[0]]["Team"]
             if picked != st.session_state.selected_team:
@@ -157,7 +157,7 @@ with tab4:
     st.subheader("Today's Slate: Game-by-Game Projections")
     st.caption("💡 Click any game row to inspect the Projected Winner's profile.")
     daily = pd.read_csv("data/daily_projections.csv")
-    event4 = st.dataframe(daily, use_container_width=True, hide_index=True, height=650, on_select="rerun", selection_mode="single-row", key="daily_table")
+    event4 = st.dataframe(daily, use_container_width=True, hide_index=True, height=650, key="daily_table")
     if event4.selection.rows:
         picked = daily.iloc[event4.selection.rows[0]]["Projected Winner"]
         if picked != st.session_state.selected_team:
