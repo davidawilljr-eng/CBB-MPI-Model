@@ -88,13 +88,16 @@ def run_simulations(n_sims=5000):
     team_to_idx = {t: i for i, t in enumerate(teams)}
 
     rem_games = []
-    for i, t in enumerate(teams):
-        played = ratings.loc[i, "cur_w"] + ratings.loc[i, "cur_l"]
-        non_conf_left = max(0, 12 - played)
-        for _ in range(non_conf_left // 2):
+    non_conf_games = [int(ratings.loc[i, "cur_w"] + ratings.loc[i, "cur_l"]) for i in range(n_teams)]
+    for i in range(n_teams):
+        attempts = 0
+        while non_conf_games[i] < 13 and attempts < 80:
+            attempts += 1
             opp_idx = int(rng.integers(0, n_teams))
-            if opp_idx != i:
+            if opp_idx != i and non_conf_games[opp_idx] < 13 and ratings.loc[i, "Conference"] != ratings.loc[opp_idx, "Conference"]:
                 rem_games.append((i, opp_idx, False, True))
+                non_conf_games[i] += 1
+                non_conf_games[opp_idx] += 1
 
     for conf, group in ratings.groupby("Conference"):
         c_indices = [team_to_idx[t] for t in group["Team"]]
@@ -148,6 +151,12 @@ def run_simulations(n_sims=5000):
         c_scores = conf_w[:, c_idx] + (sim_mpis[:, c_idx] * 0.25) + tourney_chaos
         winners = c_idx[np.argmax(c_scores, axis=1)]
         auto_bids[np.arange(n_sims), winners] = True
+        # Add Conference Tournament games (3 wins for champ; 1-2 games for others; NO March Madness games)
+        for idx_in_c, t_global in enumerate(c_idx):
+            is_champ = (winners == t_global)
+            advances_r1 = (~is_champ) & (rng.random(n_sims) < np.clip(0.35 + (sim_mpis[:, t_global] - 0.0) * 0.015, 0.10, 0.75))
+            total_w[:, t_global] += np.where(is_champ, 3, np.where(advances_r1, 1, 0))
+            total_l[:, t_global] += np.where(is_champ, 0, 1)
 
     # 76-Team Format: 32 Auto-Bids + Top 44 At-Large Teams
     sim_resume = total_w + (sim_mpis * 0.45)
