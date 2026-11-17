@@ -1,35 +1,68 @@
 Time (ET),Away Team,Home Team,Projected Winner,Spread,Win Prob %,Projected Score
-11:00 AM ET,Miami-Hamilton,Morehead St.,Miami-Hamilton,Miami-Hamilton -3.6,62.7,Miami-Hamilton 74 - Morehead St. 70
-12:00 PM ET,Ferrum,George Washington,George Washington,George Washington -8.7,78.5,Ferrum 68 - George Washington 76
-12:00 PM ET,Fisk,North Ala.,North Ala.,North Ala. -1.3,54.8,Fisk 71 - North Ala. 73
-2:00 PM ET,Florida A&M,UTEP,UTEP,UTEP -15.7,92.3,Florida A&M 64 - UTEP 80
-6:00 PM ET,Alcorn,Maryland,Maryland,Maryland -18.6,95.4,Alcorn 63 - Maryland 81
-6:00 PM ET,Iona,UMBC,Iona,Iona -0.4,51.5,Iona 72 - UMBC 72
-6:30 PM ET,Prairie View,Ohio St.,Ohio St.,Ohio St. -22.1,97.8,Prairie View 61 - Ohio St. 83
-7:00 PM ET,Grambling,Kentucky,Kentucky,Kentucky -21.0,97.2,Grambling 63 - Kentucky 84
-7:00 PM ET,The Citadel,Clemson,Clemson,Clemson -15.2,91.7,The Citadel 64 - Clemson 80
-7:00 PM ET,Richmond,Virginia Tech,Virginia Tech,Virginia Tech -7.9,76.4,Richmond 68 - Virginia Tech 76
-7:00 PM ET,Western Ky.,Tulsa,Tulsa,Tulsa -5.3,68.5,Western Ky. 69 - Tulsa 74
-7:00 PM ET,Fla. Memorial,Stetson,Fla. Memorial,Fla. Memorial -3.1,61.1,Fla. Memorial 73 - Stetson 70
-7:00 PM ET,St. Thomas (MN),LIU,St. Thomas (MN),St. Thomas (MN) -1.2,54.5,St. Thomas (MN) 73 - LIU 71
-7:00 PM ET,Jacksonville,Georgia,Georgia,Georgia -13.1,88.3,Jacksonville 65 - Georgia 78
-7:00 PM ET,DeSales,Penn,Penn,Penn -1.6,55.6,DeSales 71 - Penn 73
-7:00 PM ET,Eastern Ky.,Kent St.,Kent St.,Kent St. -2.1,57.7,Eastern Ky. 71 - Kent St. 73
-7:00 PM ET,Virginia-Lynchburg,N.C. Central,Virginia-Lynchburg,Virginia-Lynchburg -5.9,70.4,Virginia-Lynchburg 75 - N.C. Central 69
-7:30 PM ET,Indiana,Arkansas,Arkansas,Arkansas -2.4,58.6,Indiana 71 - Arkansas 73
-7:30 PM ET,Tarleton St.,Drake,Drake,Drake -6.5,72.2,Tarleton St. 69 - Drake 75
-7:30 PM ET,Midway,Southeast Mo. St.,Midway,Midway -1.5,55.4,Midway 73 - Southeast Mo. St. 71
-8:00 PM ET,Mayville St.,South Dakota St.,South Dakota St.,South Dakota St. -4.0,64.2,Mayville St. 70 - South Dakota St. 74
-8:00 PM ET,Columbia,Northwestern,Northwestern,Northwestern -9.7,81.1,Columbia 67 - Northwestern 77
-8:00 PM ET,Central Ark.,Oklahoma St.,Oklahoma St.,Oklahoma St. -12.0,86.1,Central Ark. 66 - Oklahoma St. 78
-8:00 PM ET,Calumet Col.,Valparaiso,Valparaiso,Valparaiso -5.4,68.8,Calumet Col. 69 - Valparaiso 75
-8:00 PM ET,Montana,Kansas St.,Kansas St.,Kansas St. -13.6,89.1,Montana 66 - Kansas St. 79
-8:00 PM ET,Western Ill.,Minnesota,Minnesota,Minnesota -19.4,96.1,Western Ill. 62 - Minnesota 82
-8:00 PM ET,Abilene Christian,Missouri St.,Missouri St.,Missouri St. -6.8,73.1,Abilene Christian 69 - Missouri St. 76
-8:30 PM ET,Southeastern La.,Texas A&M,Texas A&M,Texas A&M -22.4,97.9,Southeastern La. 62 - Texas A&M 84
-8:30 PM ET,Dallas Christian,ULM,Dallas Christian,Dallas Christian -0.3,51.2,Dallas Christian 72 - ULM 72
-9:30 PM ET,East Texas A&M,Oregon St.,Oregon St.,Oregon St. -10.0,81.9,East Texas A&M 66 - Oregon St. 76
-10:00 PM ET,Long Beach St.,UCLA,UCLA,UCLA -19.6,96.2,Long Beach St. 62 - UCLA 82
-10:00 PM ET,Portland St.,Saint Mary's (CA),Saint Mary's (CA),Saint Mary's (CA) -11.2,84.6,Portland St. 67 - Saint Mary's (CA) 78
-10:00 PM ET,Texas Southern,UC San Diego,UC San Diego,UC San Diego -10.6,83.1,Texas Southern 68 - UC San Diego 79
-10:00 PM ET,UCCS,Denver,Denver,Denver -2.8,60.2,UCCS 70 - Denver 73
+11:00 AM ET,Wilson,Delaware,Delaware,Delaware -1.0,53.7,Wilson 71 - Delaware 72
+12:00 PM ET,La. Christian,Southern U.,La. Christian,La. Christian -4.4,65.6,La. Christian 74 - Southern U. 70
+12:00 PM ET,Hofstra,Murray St.,Murray St.,Murray St. -10.2,82.2,Hofstra 66 - Murray St. 76
+2:00 PM ET,Rutgers,Houston,Houston,Houston -12.3,86.9,Rutgers 66 - Houston 78
+4:30 PM ET,Notre Dame,Florida,Florida,Florida -11.4,84.9,Notre Dame 66 - Florida 78
+6:00 PM ET,Marist,Army West Point,Army West Point,Army West Point -2.6,59.5,Marist 71 - Army West Point 73
+6:00 PM ET,Liberty,Southern Ill.,Southern Ill.,Southern Ill. -6.9,73.5,Liberty 69 - Southern Ill. 75
+6:00 PM ET,Saint Peter's,UMass Lowell,UMass Lowell,UMass Lowell -5.4,68.9,Saint Peter's 69 - UMass Lowell 75
+6:30 PM ET,Me.-Augusta,Dartmouth,Dartmouth,Dartmouth -0.6,52.1,Me.-Augusta 72 - Dartmouth 72
+6:30 PM ET,Lipscomb,Purdue,Purdue,Purdue -19.5,96.2,Lipscomb 62 - Purdue 82
+6:31 PM ET,SUNY Potsdam,Stony Brook,SUNY Potsdam,SUNY Potsdam -0.6,52.2,SUNY Potsdam 72 - Stony Brook 72
+7:00 PM ET,Western Caro.,Butler,Butler,Butler -10.6,83.2,Western Caro. 67 - Butler 77
+7:00 PM ET,Green Bay,West Florida,West Florida,West Florida -1.1,54.1,Green Bay 71 - West Florida 72
+7:00 PM ET,Fordham,Manhattan,Fordham,Fordham -5.2,68.1,Fordham 75 - Manhattan 69
+7:00 PM ET,Central Mich.,Dayton,Dayton,Dayton -6.0,70.7,Central Mich. 69 - Dayton 75
+7:00 PM ET,Wagner,Saint Joseph's,Saint Joseph's,Saint Joseph's -12.0,86.2,Wagner 64 - Saint Joseph's 76
+7:00 PM ET,Rider,Miami (FL),Miami (FL),Miami (FL) -22.4,97.9,Rider 60 - Miami (FL) 82
+7:00 PM ET,Bowling Green,William & Mary,William & Mary,William & Mary -1.8,56.5,Bowling Green 71 - William & Mary 73
+7:00 PM ET,ETSU,Marshall,Marshall,Marshall -4.2,65.0,ETSU 70 - Marshall 74
+7:00 PM ET,Monmouth,Wake Forest,Wake Forest,Wake Forest -12.6,87.4,Monmouth 66 - Wake Forest 78
+7:00 PM ET,CSUN,Troy,Troy,Troy -2.5,59.0,CSUN 71 - Troy 73
+7:00 PM ET,Mississippi St.,UCF,UCF,UCF -1.7,56.2,Mississippi St. 72 - UCF 73
+7:00 PM ET,Ball St.,Florida St.,Florida St.,Florida St. -15.2,91.6,Ball St. 65 - Florida St. 80
+7:00 PM ET,Sacred Heart,Providence,Providence,Providence -16.1,92.8,Sacred Heart 63 - Providence 80
+7:00 PM ET,Norfolk St.,Georgia Tech,Georgia Tech,Georgia Tech -19.9,96.5,Norfolk St. 62 - Georgia Tech 82
+7:00 PM ET,Villanova,Pittsburgh,Pittsburgh,Pittsburgh -1.2,54.4,Villanova 71 - Pittsburgh 73
+7:00 PM ET,Cleveland St.,Xavier,Xavier,Xavier -21.3,97.4,Cleveland St. 61 - Xavier 82
+7:00 PM ET,Lehigh,Mount St. Mary's,Mount St. Mary's,Mount St. Mary's -4.9,67.2,Lehigh 69 - Mount St. Mary's 73
+7:00 PM ET,Cheyney,Delaware St.,Cheyney,Cheyney -5.0,67.4,Cheyney 74 - Delaware St. 69
+7:00 PM ET,Illinois,Duke,Duke,Duke -4.3,65.3,Illinois 70 - Duke 74
+7:00 PM ET,Charlotte,Davidson,Davidson,Davidson -5.4,68.8,Charlotte 69 - Davidson 75
+7:00 PM ET,Akron,Bucknell,Akron,Akron -4.6,66.2,Akron 74 - Bucknell 70
+7:00 PM ET,Spring Hill,South Alabama,South Alabama,South Alabama -1.6,55.9,Spring Hill 72 - South Alabama 73
+7:00 PM ET,VTSU Lyndon,Central Conn. St.,VTSU Lyndon,VTSU Lyndon -3.0,60.8,VTSU Lyndon 74 - Central Conn. St. 71
+7:00 PM ET,Tennessee St.,South Fla.,South Fla.,South Fla. -10.1,82.0,Tennessee St. 67 - South Fla. 77
+7:30 PM ET,Kennesaw St.,Alabama,Alabama,Alabama -19.1,95.9,Kennesaw St. 62 - Alabama 81
+7:30 PM ET,FIU,UAB,UAB,UAB -2.1,57.7,FIU 71 - UAB 73
+7:30 PM ET,Bryant,Massachusetts,Massachusetts,Massachusetts -9.6,81.0,Bryant 67 - Massachusetts 77
+7:30 PM ET,Indiana,Arkansas,Arkansas,Arkansas -2.3,58.3,Indiana 71 - Arkansas 73
+7:30 PM ET,Jacksonville St.,Louisiana Tech,Louisiana Tech,Louisiana Tech -2.0,57.1,Jacksonville St. 71 - Louisiana Tech 73
+8:00 PM ET,Lindenwood,UNI,UNI,UNI -9.2,79.9,Lindenwood 67 - UNI 77
+8:00 PM ET,SIUE,North Dakota,North Dakota,North Dakota -3.5,62.4,SIUE 70 - North Dakota 74
+8:00 PM ET,Oral Roberts,SMU,SMU,SMU -16.3,93.0,Oral Roberts 64 - SMU 81
+8:00 PM ET,Eastern Ill.,Vanderbilt,Vanderbilt,Vanderbilt -24.7,98.7,Eastern Ill. 60 - Vanderbilt 84
+8:00 PM ET,Bellarmine,Illinois St.,Illinois St.,Illinois St. -8.4,77.9,Bellarmine 68 - Illinois St. 76
+8:00 PM ET,Middle Tenn.,Ga. Southern,Ga. Southern,Ga. Southern -1.9,56.9,Middle Tenn. 71 - Ga. Southern 73
+8:00 PM ET,Lamar University,Omaha,Omaha,Omaha -5.0,67.5,Lamar University 69 - Omaha 74
+8:00 PM ET,Embry-Riddle (AZ),Northern Ariz.,Northern Ariz.,Northern Ariz. -0.0,49.9,Embry-Riddle (AZ) 72 - Northern Ariz. 72
+8:00 PM ET,A&M-Corpus Christi,Rice,Rice,Rice -7.6,75.6,A&M-Corpus Christi 68 - Rice 76
+8:00 PM ET,Le Moyne,Evansville,Evansville,Evansville -8.1,76.9,Le Moyne 68 - Evansville 76
+8:00 PM ET,UMES,DePaul,DePaul,DePaul -21.2,97.3,UMES 61 - DePaul 83
+8:00 PM ET,Fort Lauderdale,North Florida,Fort Lauderdale,Fort Lauderdale -1.3,54.6,Fort Lauderdale 73 - North Florida 71
+8:00 PM ET,Newman,Kansas City,Newman,Newman -0.2,50.7,Newman 72 - Kansas City 72
+8:00 PM ET,UT Arlington,Southern Miss.,Southern Miss.,Southern Miss. -2.0,57.3,UT Arlington 71 - Southern Miss. 73
+8:00 PM ET,Life (GA),Austin Peay,Life (GA),Life (GA) -0.6,52.1,Life (GA) 72 - Austin Peay 72
+8:30 PM ET,Eastern Wash.,Utah,Utah,Utah -14.1,90.0,Eastern Wash. 65 - Utah 79
+8:30 PM ET,Nicholls,Ole Miss,Ole Miss,Ole Miss -22.2,97.8,Nicholls 60 - Ole Miss 83
+8:30 PM ET,Sam Houston,Wyoming,Wyoming,Wyoming -9.1,79.7,Sam Houston 68 - Wyoming 77
+9:00 PM ET,Old Dominion,Virginia,Virginia,Virginia -15.0,91.4,Old Dominion 64 - Virginia 80
+9:00 PM ET,Michigan St.,Tennessee,Tennessee,Tennessee -0.5,51.9,Michigan St. 71 - Tennessee 72
+9:00 PM ET,Alabama St.,UC Davis,UC Davis,UC Davis -13.5,89.1,Alabama St. 65 - UC Davis 79
+9:30 PM ET,UNLV,Kansas,Kansas,Kansas -18.4,95.3,UNLV 63 - Kansas 81
+10:00 PM ET,Seattle U,California Baptist,Seattle U,Seattle U -3.3,61.7,Seattle U 74 - California Baptist 70
+10:00 PM ET,UC Irvine,Stanford,Stanford,Stanford -10.3,82.5,UC Irvine 67 - Stanford 77
+10:00 PM ET,Pacific Union,Pacific,Pacific,Pacific -6.8,73.2,Pacific Union 69 - Pacific 75
+10:00 PM ET,Simon Fraser,Washington,Washington,Washington -9.3,80.2,Simon Fraser 68 - Washington 77
+11:00 PM ET,Montana St.,Gonzaga,Gonzaga,Gonzaga -17.3,94.3,Montana St. 63 - Gonzaga 81
