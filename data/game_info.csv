@@ -1253,6 +1253,7 @@ game_id,date,home_team,away_team,home_score,away_score,neutral_site,game_state,s
 6654771,2026-11-23,La Salle,Penn St. Brandywine,90,42,False,final,7:00 PM ET
 6654789,2026-11-23,Iona,FDU,46,49,False,final,7:00 PM ET
 6655680,2026-11-23,North Florida,Central Ark.,66,80,False,final,7:00 PM ET
+6655741,2026-11-23,South Carolina St.,N.C. A&T,60,62,False,final,7:00 PM ET
 6656128,2026-11-23,Le Moyne,Mansfield,68,58,False,final,7:00 PM ET
 6664633,2026-11-23,Howard,Notre Dame (MD),101,73,False,final,7:00 PM ET
 6651614,2026-11-23,Wichita St.,A&M-Corpus Christi,91,73,False,final,7:30 PM ET
@@ -1270,3 +1271,89 @@ game_id,date,home_team,away_team,home_score,away_score,neutral_site,game_state,s
 6651720,2026-11-23,California,Alabama St.,96,54,False,final,10:00 PM ET
 6655948,2026-11-23,UNLV,Eastern Wash.,82,61,False,final,10:00 PM ET
 6651508,2026-11-23,Arizona,Colorado St.,96,83,False,final,11:30 PM ET
+6678359,2026-11-24,UC San Diego,San Jose St.,79,88,False,final,12:00 AM ET
+6655880,2026-11-24,St. Bonaventure,Wright St.,72,70,False,final,10:00 AM ET
+6655615,2026-11-24,New Mexico St.,Ohio,68,69,False,final,11:00 AM ET
+6650398,2026-11-24,Northern Colo.,Southeastern La.,60,70,False,final,12:30 PM ET
+6655993,2026-11-24,Akron,Belmont,87,64,False,final,12:30 PM ET
+6652376,2026-11-24,Stonehill,VTSU Randolph,112,64,False,final,1:00 PM ET
+6654506,2026-11-24,FIU,Southern Utah,81,66,False,final,1:00 PM ET
+6652922,2026-11-24,Pittsburgh,Oklahoma,79,68,False,final,1:30 PM ET
+6655634,2026-11-24,Rice,UIC,68,67,False,final,1:30 PM ET
+6656294,2026-11-24,Oregon St.,San Francisco,87,73,False,final,2:00 PM ET
+6667297,2026-11-24,BYU,Ole Miss,63,73,False,final,2:30 PM ET
+6649728,2026-11-24,Yale,App State,57,50,False,final,3:00 PM ET
+6650258,2026-11-24,TCU,Miami (FL),84,71,False,final,3:00 PM ET
+6650851,2026-11-24,Detroit Mercy,North Dakota,67,77,False,final,3:00 PM ET
+6652128,2026-11-24,Maryland,Tennessee,64,72,False,final,3:00 PM ET
+6653422,2026-11-24,Long Beach St.,Arkansas St.,81,106,False,final,3:30 PM ET
+6648901,2026-11-24,Lindenwood,New Haven,60,63,False,final,4:00 PM ET
+6652514,2026-11-24,Tulsa,Illinois St.,67,79,False,final,4:30 PM ET
+6654184,2026-11-24,Navy,Penn St.-Berks,97,46,False,final,4:30 PM ET
+6650777,2026-11-24,Wagner,Bloomsburg,96,44,False,final,5:00 PM ET
+6667299,2026-11-24,Arizona,Providence,84,66,False,final,5:00 PM ET
+6652066,2026-11-24,Iowa St.,San Diego St.,81,68,False,final,5:30 PM ET
+6654034,2026-11-24,Michigan,Creighton,73,99,False,final,5:30 PM ET
+6655163,2026-11-24,Wyoming,Kent St.,75,78,False,final,5:30 PM ET
+6662630,2026-11-24,Quinnipiac,Emerson,85,57,False,final,5:30 PM ET
+6650073,2026-11-24,Kennesaw St.,Eastern Mich.,56,60,False,final,6:00 PM ET
+6651011,2026-11-24,Wofford,Queens (NC),86,77,False,final,6:00 PM ET
+6652880,2026-11-24,Fla. Atlantic,Mercer,95,84,False,final,6:00 PM ET
+6654093,2026-11-24,VMI,Southern Ind.,87,83,False,final,6:00 PM ET
+6654871,2026-11-24,Rutgers,Sacred Heart,106,73,False,final,6:00 PM ET
+6654989,2026-11-24,Purdue,DePaul,56,65,False,final,6:00 PM ET
+6653554,2026-11-24,Furman,Elon,82,60,False,final,6:30 PM ET
+6654741,2026-11-24,Lamar University,Robert Morris,87,62,False,final,6:30 PM ET
+6649029,2026-11-24,Loyola Maryland,Rider,71,54,False,final,7:00 PM ET
+6649059,2026-11-24,Villanova,Coppin St.,70,52,False,final,7:00 PM ET
+6649516,2026-11-24,Bowling Green,Gardner-Webb,91,65,False,final,7:00 PM ET
+6649744,2026-11-24,James Madison,Charleston So.,82,58,False,final,7:00 PM ET
+6650454,2026-11-24,Florida,Milwaukee,76,67,False,final,7:00 PM ET
+6651209,2026-11-24,Nevada,Santa Clara,85,66,False,final,7:00 PM ET
+6652686,2026-11-24,Indiana,Jacksonville,82,64,False,final,7:00 PM ET
+6652727,2026-11-24,Iowa,UMBC,87,48,False,final,7:00 PM ET
+6652789,2026-11-24,Chattanooga,Delaware St.,79,66,False,final,7:00 PM ET
+6652884,2026-11-24,Ga. Southern,Bellarmine,67,82,False,final,7:00 PM ET
+6653493,2026-11-24,Weber St.,Tarleton St.,89,87,False,final,7:00 PM ET
+6653515,2026-11-24,Siena,Vermont,98,88,False,final,7:00 PM ET
+6653827,2026-11-24,Morgan St.,Mount St. Mary's,74,75,False,final,7:00 PM ET
+6653877,2026-11-24,South Fla.,Stetson,100,67,False,final,7:00 PM ET
+6653993,2026-11-24,Lehigh,Binghamton,83,90,False,final,7:00 PM ET
+6654293,2026-11-24,Coastal Carolina,Campbell,66,70,False,final,7:00 PM ET
+6654969,2026-11-24,Old Dominion,Hampton,71,59,False,final,7:00 PM ET
+6655441,2026-11-24,Marist,Bryant,58,57,False,final,7:00 PM ET
+6655493,2026-11-24,Seton Hall,New Hampshire,73,27,False,final,7:00 PM ET
+6655554,2026-11-24,Presbyterian,Carolina Christian,123,46,False,final,7:00 PM ET
+6655589,2026-11-24,Harvard,Boston U.,72,81,False,final,7:00 PM ET
+6655889,2026-11-24,Mercyhurst,Fredonia,95,56,False,final,7:00 PM ET
+6655973,2026-11-24,Georgia Tech,Samford,81,92,False,final,7:00 PM ET
+6656159,2026-11-24,Ohio St.,Vanderbilt,66,72,False,final,7:00 PM ET
+6650819,2026-11-24,High Point,Duquesne,75,70,False,final,7:30 PM ET
+6652241,2026-11-24,Louisiana Tech,Alcorn,83,41,False,final,7:30 PM ET
+6653617,2026-11-24,ULM,Houston Christian,58,84,False,final,7:30 PM ET
+6653868,2026-11-24,Southeast Mo. St.,Purdue Fort Wayne,75,80,False,final,7:30 PM ET
+6654292,2026-11-24,Tennessee Tech,West Ga.,124,85,False,final,7:30 PM ET
+6656117,2026-11-24,East Texas A&M,Arlington Baptist,79,51,False,final,7:30 PM ET
+6649659,2026-11-24,Air Force,Army West Point,88,79,False,final,8:00 PM ET
+6649938,2026-11-24,Notre Dame,Central Mich.,88,70,False,final,8:00 PM ET
+6651843,2026-11-24,North Ala.,Alabama A&M,77,74,False,final,8:00 PM ET
+6652186,2026-11-24,Penn,Drexel,89,74,False,final,8:00 PM ET
+6653948,2026-11-24,UT Arlington,Oral Roberts,80,84,False,final,8:00 PM ET
+6654377,2026-11-24,Auburn,Lipscomb,101,66,False,final,8:00 PM ET
+6654712,2026-11-24,Louisville,Texas Tech,72,64,False,final,8:00 PM ET
+6655730,2026-11-24,Cornell,Bucknell,92,71,False,final,8:00 PM ET
+6655788,2026-11-24,Little Rock,Ark. Baptist,82,47,False,final,8:00 PM ET
+6656091,2026-11-24,South Alabama,Florida A&M,74,49,False,final,8:00 PM ET
+6656264,2026-11-24,Kansas City,Green Bay,72,77,False,final,8:00 PM ET
+6667298,2026-11-24,Washington,Clemson,64,63,False,final,8:00 PM ET
+6649195,2026-11-24,Louisiana,La. Christian,91,24,False,final,8:30 PM ET
+6654137,2026-11-24,Col. of Charleston,UTEP,69,80,False,final,8:30 PM ET
+6650151,2026-11-24,Boise St.,Idaho St.,88,71,False,final,9:00 PM ET
+6650665,2026-11-24,Missouri,Evansville,78,67,False,final,9:00 PM ET
+6652256,2026-11-24,Florida St.,UNC Asheville,97,61,False,final,9:00 PM ET
+6653716,2026-11-24,UC Santa Barbara,UNC Greensboro,85,65,False,final,9:00 PM ET
+6654635,2026-11-24,Washington St.,Sam Houston,80,73,False,final,9:00 PM ET
+6654067,2026-11-24,Grand Canyon,Saint Louis,91,88,False,final,9:30 PM ET
+6651420,2026-11-24,Alabama,Baylor,63,68,False,final,10:00 PM ET
+6652649,2026-11-24,St. John's (NY),Oregon,90,79,False,final,10:30 PM ET
+6667300,2026-11-24,Colorado St.,VCU,81,84,False,final,10:30 PM ET

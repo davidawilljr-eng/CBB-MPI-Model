@@ -1,87 +1,69 @@
 game_id,date,home_team,away_team,home_score,away_score,neutral_site,game_state,start_time
-6678359,2026-11-24,UC San Diego,San Jose St.,79,88,False,final,12:00 AM ET
-6655880,2026-11-24,St. Bonaventure,Wright St.,0,0,False,pre,10:00 AM ET
-6655615,2026-11-24,New Mexico St.,Ohio,0,0,False,pre,11:00 AM ET
-6650398,2026-11-24,Northern Colo.,Southeastern La.,0,0,False,pre,12:30 PM ET
-6655993,2026-11-24,Akron,Belmont,0,0,False,pre,12:30 PM ET
-6652376,2026-11-24,Stonehill,VTSU Randolph,0,0,False,pre,1:00 PM ET
-6654506,2026-11-24,FIU,Southern Utah,0,0,False,pre,1:00 PM ET
-6652922,2026-11-24,Pittsburgh,Oklahoma,0,0,False,pre,1:30 PM ET
-6655634,2026-11-24,Rice,UIC,0,0,False,pre,1:30 PM ET
-6656294,2026-11-24,Oregon St.,San Francisco,0,0,False,pre,2:00 PM ET
-6667297,2026-11-24,BYU,Ole Miss,0,0,False,pre,2:30 PM ET
-6649728,2026-11-24,Yale,App State,0,0,False,pre,3:00 PM ET
-6650258,2026-11-24,TCU,Miami (FL),0,0,False,pre,3:00 PM ET
-6650851,2026-11-24,Detroit Mercy,North Dakota,0,0,False,pre,3:00 PM ET
-6652128,2026-11-24,Maryland,Tennessee,0,0,False,pre,3:00 PM ET
-6653422,2026-11-24,Long Beach St.,Arkansas St.,0,0,False,pre,3:30 PM ET
-6648901,2026-11-24,Lindenwood,New Haven,0,0,False,pre,4:00 PM ET
-6652514,2026-11-24,Tulsa,Illinois St.,0,0,False,pre,4:30 PM ET
-6654184,2026-11-24,Navy,Penn St.-Berks,0,0,False,pre,4:30 PM ET
-6650777,2026-11-24,Wagner,Bloomsburg,0,0,False,pre,5:00 PM ET
-6667299,2026-11-24,Arizona,Providence,0,0,False,pre,5:00 PM ET
-6652066,2026-11-24,Iowa St.,San Diego St.,0,0,False,pre,5:30 PM ET
-6654034,2026-11-24,Michigan,Creighton,0,0,False,pre,5:30 PM ET
-6655163,2026-11-24,Wyoming,Kent St.,0,0,False,pre,5:30 PM ET
-6662630,2026-11-24,Quinnipiac,Emerson,0,0,False,pre,5:30 PM ET
-6650073,2026-11-24,Kennesaw St.,Eastern Mich.,0,0,False,pre,6:00 PM ET
-6651011,2026-11-24,Wofford,Queens (NC),0,0,False,pre,6:00 PM ET
-6652880,2026-11-24,Fla. Atlantic,Mercer,0,0,False,pre,6:00 PM ET
-6654093,2026-11-24,VMI,Southern Ind.,0,0,False,pre,6:00 PM ET
-6654871,2026-11-24,Rutgers,Sacred Heart,0,0,False,pre,6:00 PM ET
-6654989,2026-11-24,Purdue,DePaul,0,0,False,pre,6:00 PM ET
-6653554,2026-11-24,Furman,Elon,0,0,False,pre,6:30 PM ET
-6654741,2026-11-24,Lamar University,Robert Morris,0,0,False,pre,6:30 PM ET
-6649029,2026-11-24,Loyola Maryland,Rider,0,0,False,pre,7:00 PM ET
-6649059,2026-11-24,Villanova,Coppin St.,0,0,False,pre,7:00 PM ET
-6649516,2026-11-24,Bowling Green,Gardner-Webb,0,0,False,pre,7:00 PM ET
-6649744,2026-11-24,James Madison,Charleston So.,0,0,False,pre,7:00 PM ET
-6650454,2026-11-24,Florida,Milwaukee,0,0,False,pre,7:00 PM ET
-6651209,2026-11-24,Nevada,Santa Clara,0,0,False,pre,7:00 PM ET
-6652686,2026-11-24,Indiana,Jacksonville,0,0,False,pre,7:00 PM ET
-6652727,2026-11-24,Iowa,UMBC,0,0,False,pre,7:00 PM ET
-6652789,2026-11-24,Chattanooga,Delaware St.,0,0,False,pre,7:00 PM ET
-6652884,2026-11-24,Bellarmine,Ga. Southern,0,0,False,pre,7:00 PM ET
-6653493,2026-11-24,Weber St.,Tarleton St.,0,0,False,pre,7:00 PM ET
-6653515,2026-11-24,Siena,Vermont,0,0,False,pre,7:00 PM ET
-6653827,2026-11-24,Morgan St.,Mount St. Mary's,0,0,False,pre,7:00 PM ET
-6653877,2026-11-24,South Fla.,Stetson,0,0,False,pre,7:00 PM ET
-6653993,2026-11-24,Lehigh,Binghamton,0,0,False,pre,7:00 PM ET
-6654293,2026-11-24,Coastal Carolina,Campbell,0,0,False,pre,7:00 PM ET
-6654969,2026-11-24,Old Dominion,Hampton,0,0,False,pre,7:00 PM ET
-6655441,2026-11-24,Marist,Bryant,0,0,False,pre,7:00 PM ET
-6655493,2026-11-24,Seton Hall,New Hampshire,0,0,False,pre,7:00 PM ET
-6655554,2026-11-24,Presbyterian,Carolina Christian,0,0,False,pre,7:00 PM ET
-6655589,2026-11-24,Harvard,Boston U.,0,0,False,pre,7:00 PM ET
-6655889,2026-11-24,Mercyhurst,Fredonia,0,0,False,pre,7:00 PM ET
-6655973,2026-11-24,Georgia Tech,Samford,0,0,False,pre,7:00 PM ET
-6656159,2026-11-24,Ohio St.,Vanderbilt,0,0,False,pre,7:00 PM ET
-6650819,2026-11-24,High Point,Duquesne,0,0,False,pre,7:30 PM ET
-6652241,2026-11-24,Louisiana Tech,Alcorn,0,0,False,pre,7:30 PM ET
-6653617,2026-11-24,ULM,Houston Christian,0,0,False,pre,7:30 PM ET
-6653868,2026-11-24,Southeast Mo. St.,Purdue Fort Wayne,0,0,False,pre,7:30 PM ET
-6654292,2026-11-24,Tennessee Tech,West Ga.,0,0,False,pre,7:30 PM ET
-6656117,2026-11-24,East Texas A&M,Arlington Baptist,0,0,False,pre,7:30 PM ET
-6649659,2026-11-24,Air Force,Army West Point,0,0,False,pre,8:00 PM ET
-6649938,2026-11-24,Notre Dame,Central Mich.,0,0,False,pre,8:00 PM ET
-6651843,2026-11-24,North Ala.,Alabama A&M,0,0,False,pre,8:00 PM ET
-6652186,2026-11-24,Penn,Drexel,0,0,False,pre,8:00 PM ET
-6653948,2026-11-24,UT Arlington,Oral Roberts,0,0,False,pre,8:00 PM ET
-6654377,2026-11-24,Auburn,Lipscomb,0,0,False,pre,8:00 PM ET
-6654712,2026-11-24,Louisville,Texas Tech,0,0,False,pre,8:00 PM ET
-6655730,2026-11-24,Cornell,Bucknell,0,0,False,pre,8:00 PM ET
-6655788,2026-11-24,Little Rock,Ark. Baptist,0,0,False,pre,8:00 PM ET
-6656091,2026-11-24,South Alabama,Florida A&M,0,0,False,pre,8:00 PM ET
-6656264,2026-11-24,Kansas City,Green Bay,0,0,False,pre,8:00 PM ET
-6667298,2026-11-24,Washington,Clemson,0,0,False,pre,8:00 PM ET
-6649195,2026-11-24,Louisiana,La. Christian,0,0,False,pre,8:30 PM ET
-6654137,2026-11-24,Col. of Charleston,UTEP,0,0,False,pre,8:30 PM ET
-6650151,2026-11-24,Boise St.,Idaho St.,0,0,False,pre,9:00 PM ET
-6650665,2026-11-24,Missouri,Evansville,0,0,False,pre,9:00 PM ET
-6652256,2026-11-24,Florida St.,UNC Asheville,0,0,False,pre,9:00 PM ET
-6653716,2026-11-24,UC Santa Barbara,UNC Greensboro,0,0,False,pre,9:00 PM ET
-6654635,2026-11-24,Washington St.,Sam Houston,0,0,False,pre,9:00 PM ET
-6654067,2026-11-24,Grand Canyon,Saint Louis,0,0,False,pre,9:30 PM ET
-6651420,2026-11-24,Alabama,Baylor,0,0,False,pre,10:00 PM ET
-6652649,2026-11-24,St. John's (NY),Oregon,0,0,False,pre,10:30 PM ET
-6667300,2026-11-24,Colorado St.,VCU,0,0,False,pre,10:30 PM ET
+6654722,2026-11-25,Stanford,Colorado,65,70,False,final,12:00 AM ET
+6650211,2026-11-25,Kansas St.,Gonzaga,61,101,False,final,12:30 AM ET
+6655994,2026-11-25,Belmont,St. Bonaventure,0,0,False,pre,10:00 AM ET
+6652300,2026-11-25,Charlotte,UNI,0,0,False,pre,11:00 AM ET
+6655616,2026-11-25,Ohio,Rice,0,0,False,pre,11:00 AM ET
+6663376,2026-11-25,Fordham,Mercy,0,0,False,pre,11:00 AM ET
+6650130,2026-11-25,Saint Joseph's,Penn St.-Abington,0,0,False,pre,12:00 PM ET
+6652792,2026-11-25,Marquette,Virginia,0,0,False,pre,12:00 PM ET
+6655398,2026-11-25,FDU,VTSU Randolph,0,0,False,pre,12:00 PM ET
+6649732,2026-11-25,Wright St.,Yale,0,0,False,pre,12:30 PM ET
+6662224,2026-11-25,Detroit Mercy,Northern Colo.,0,0,False,pre,12:30 PM ET
+6648903,2026-11-25,Stony Brook,Lindenwood,0,0,False,pre,1:00 PM ET
+6650909,2026-11-25,Rhode Island,American Int'l,0,0,False,pre,1:00 PM ET
+6653423,2026-11-25,Southern Utah,Long Beach St.,0,0,False,pre,1:00 PM ET
+6654347,2026-11-25,Miami (OH),Eastern Ky.,0,0,False,pre,1:00 PM ET
+6654154,2026-11-25,Davidson,Tulane,0,0,False,pre,1:30 PM ET
+6649111,2026-11-25,NJIT,Manhattan,0,0,False,pre,2:00 PM ET
+6649542,2026-11-25,Western Caro.,Montreat,0,0,False,pre,2:00 PM ET
+6650773,2026-11-25,Western Mich.,Grace Christian (MI),0,0,False,pre,2:00 PM ET
+6650967,2026-11-25,Columbia,Saint Peter's,0,0,False,pre,2:00 PM ET
+6651949,2026-11-25,South Dakota St.,Abilene Christian,0,0,False,pre,2:00 PM ET
+6652593,2026-11-25,Brown,JWU (Providence),0,0,False,pre,2:00 PM ET
+6653735,2026-11-25,Arizona St.,LSU,0,0,False,pre,2:00 PM ET
+6655242,2026-11-25,South Dakota,Ark.-Pine Bluff,0,0,False,pre,2:00 PM ET
+6656250,2026-11-25,North Florida,Warner,0,0,False,pre,2:00 PM ET
+6653775,2026-11-25,Xavier,Texas A&M,0,0,False,pre,2:30 PM ET
+6667293,2026-11-25,Arizona,Ole Miss,0,0,False,pre,2:30 PM ET
+6652887,2026-11-25,Oklahoma St.,Jackson St.,0,0,False,pre,3:00 PM ET
+6654363,2026-11-25,App State,Akron,0,0,False,pre,3:00 PM ET
+6662225,2026-11-25,North Dakota,Southeastern La.,0,0,False,pre,3:00 PM ET
+6654311,2026-11-25,FIU,Arkansas St.,0,0,False,pre,3:30 PM ET
+6650581,2026-11-25,Liberty,Princeton,0,0,False,pre,4:00 PM ET
+6652430,2026-11-25,Utah Tech,Bethesda (CA),0,0,False,pre,4:00 PM ET
+6652918,2026-11-25,LSU New Orleans ,Grambling,0,0,False,pre,4:00 PM ET
+6653367,2026-11-25,FGCU,Georgia St.,0,0,False,pre,4:00 PM ET
+6654652,2026-11-25,Marshall,Prairie View,0,0,False,pre,4:00 PM ET
+6652578,2026-11-25,Southern California,South Carolina,0,0,False,pre,4:30 PM ET
+6650048,2026-11-25,Nebraska,Southern U.,0,0,False,pre,5:00 PM ET
+6650280,2026-11-25,Dartmouth,Holy Cross,0,0,False,pre,5:00 PM ET
+6652242,2026-11-25,Texas St.,Alcorn,0,0,False,pre,5:00 PM ET
+6653300,2026-11-25,Penn St.,Memphis,0,0,False,pre,5:00 PM ET
+6654399,2026-11-25,UC Riverside,Portland St.,0,0,False,pre,5:00 PM ET
+6667296,2026-11-25,Providence,BYU,0,0,False,pre,5:30 PM ET
+6649332,2026-11-25,Northwestern St.,West Florida,0,0,False,pre,6:00 PM ET
+6651752,2026-11-25,Weber St.,CSUN,0,0,False,pre,6:00 PM ET
+6654451,2026-11-25,Syracuse,UAlbany,0,0,False,pre,6:00 PM ET
+6655717,2026-11-25,Richmond,Bethune-Cookman,0,0,False,pre,6:00 PM ET
+6662226,2026-11-25,Col. of Charleston,Kennesaw St.,0,0,False,pre,6:00 PM ET
+6651147,2026-11-25,SMU,Utah St.,0,0,False,pre,7:00 PM ET
+6651358,2026-11-25,UConn,Duke,0,0,False,pre,7:00 PM ET
+6651452,2026-11-25,NC State,Norfolk St.,0,0,False,pre,7:00 PM ET
+6652486,2026-11-25,UNCW,St. Thomas (MN),0,0,False,pre,7:00 PM ET
+6652540,2026-11-25,SIUE,NIU,0,0,False,pre,7:00 PM ET
+6653305,2026-11-25,George Mason,Longwood,0,0,False,pre,7:00 PM ET
+6654491,2026-11-25,Northern Ky.,Bellarmine,0,0,False,pre,7:00 PM ET
+6655098,2026-11-25,Wisconsin,Northeastern,0,0,False,pre,7:00 PM ET
+6660549,2026-11-25,The Citadel,USC Upstate,0,0,False,pre,7:00 PM ET
+6666350,2026-11-25,Cleveland St.,CWRU,0,0,False,pre,7:00 PM ET
+6651534,2026-11-25,Mississippi St.,Wake Forest,0,0,False,pre,7:30 PM ET
+6653693,2026-11-25,Pepperdine,CSU Bakersfield,0,0,False,pre,8:00 PM ET
+6660570,2026-11-25,UC Davis,Omaha,0,0,False,pre,8:00 PM ET
+6662227,2026-11-25,UTEP,Eastern Mich.,0,0,False,pre,8:30 PM ET
+6655210,2026-11-25,New Mexico,Mississippi Val.,0,0,False,pre,9:00 PM ET
+6655763,2026-11-25,LMU (CA),Eastern Wash.,0,0,False,pre,9:00 PM ET
+6655816,2026-11-25,Montana St.,Northwest Indian,0,0,False,pre,9:00 PM ET
+6678361,2026-11-25,Grand Canyon,Colorado,0,0,False,pre,9:30 PM ET
+6667294,2026-11-25,VCU,Washington,0,0,False,pre,10:00 PM ET
+6653796,2026-11-25,Pacific,Jacksonville St.,0,0,False,pre,10:30 PM ET
