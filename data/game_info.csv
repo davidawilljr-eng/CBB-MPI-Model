@@ -1425,3 +1425,27 @@ game_id,date,home_team,away_team,home_score,away_score,neutral_site,game_state,s
 6678361,2026-11-25,Grand Canyon,Colorado,79,73,False,final,9:30 PM ET
 6667294,2026-11-25,VCU,Washington,80,78,False,final,10:00 PM ET
 6653796,2026-11-25,Pacific,Jacksonville St.,76,83,False,final,10:30 PM ET
+6654919,2026-11-26,Hawaii,UIW,83,81,False,final,12:00 AM ET
+6678362,2026-11-26,Saint Louis,Stanford,66,64,False,final,12:00 AM ET
+6667295,2026-11-26,Colorado St.,Clemson,77,75,False,final,12:30 AM ET
+6655249,2026-11-26,Cincinnati,Georgia,83,81,False,final,11:00 AM ET
+6649661,2026-11-26,UTSA,Army West Point,61,79,False,final,12:00 PM ET
+6652931,2026-11-26,Purdue,Oklahoma,63,70,False,final,12:00 PM ET
+6655996,2026-11-26,UCF,Boston College,73,75,False,final,1:30 PM ET
+6653212,2026-11-26,South Carolina,Arizona St.,80,73,False,final,2:00 PM ET
+6650931,2026-11-26,Texas,Georgetown,92,83,False,final,2:30 PM ET
+6664115,2026-11-26,Michigan,Miami (FL),70,97,False,final,3:30 PM ET
+6664123,2026-11-26,San Diego St.,Maryland,75,71,False,final,4:00 PM ET
+6652579,2026-11-26,Utah St.,Southern California,78,74,False,final,4:30 PM ET
+6654414,2026-11-26,Michigan St.,Arkansas,70,67,False,final,4:30 PM ET
+6653467,2026-11-26,Saint Mary's (CA),UCLA,85,70,False,final,5:00 PM ET
+6664124,2026-11-26,Iowa St.,Tennessee,64,75,False,final,5:30 PM ET
+6664116,2026-11-26,Creighton,TCU,95,87,False,final,6:00 PM ET
+6651149,2026-11-26,SMU,LSU,86,95,False,final,7:00 PM ET
+6653660,2026-11-26,Pittsburgh,DePaul,71,64,False,final,7:00 PM ET
+6653799,2026-11-26,Jacksonville St.,UC Davis,63,68,False,final,8:00 PM ET
+6664117,2026-11-26,Kansas St.,Alabama,91,104,False,final,9:00 PM ET
+6664125,2026-11-26,St. John's (NY),Louisville,90,93,False,final,9:00 PM ET
+6660571,2026-11-26,Omaha,Pacific,62,71,False,final,10:30 PM ET
+6664118,2026-11-26,Gonzaga,Baylor,72,64,False,final,11:30 PM ET
+6664126,2026-11-26,Oregon,Texas Tech,59,62,False,final,11:30 PM ET
