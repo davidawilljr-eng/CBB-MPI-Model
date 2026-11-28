@@ -1449,3 +1449,58 @@ game_id,date,home_team,away_team,home_score,away_score,neutral_site,game_state,s
 6660571,2026-11-26,Omaha,Pacific,62,71,False,final,10:30 PM ET
 6664118,2026-11-26,Gonzaga,Baylor,72,64,False,final,11:30 PM ET
 6664126,2026-11-26,Oregon,Texas Tech,59,62,False,final,11:30 PM ET
+6652807,2026-11-27,Xavier,Virginia,71,83,False,final,11:00 AM ET
+6650583,2026-11-27,Liberty,St. Thomas (MN),76,67,False,final,12:00 PM ET
+6653576,2026-11-27,Vermont,Merrimack,57,75,False,final,1:00 PM ET
+6655503,2026-11-27,Hampton,UMass Lowell,55,72,False,final,1:00 PM ET
+6661674,2026-11-27,Youngstown St.,Bry. & Strat. (OH) USCAA,96,66,False,final,1:00 PM ET
+6664122,2026-11-27,St. John's (NY),Iowa St.,80,75,False,final,1:00 PM ET
+6667301,2026-11-27,Wake Forest,Memphis,85,88,False,final,1:30 PM ET
+6654185,2026-11-27,Fairfield,Navy,75,59,False,final,2:00 PM ET
+6654256,2026-11-27,South Dakota,Clarke,99,47,False,final,2:00 PM ET
+6654747,2026-11-27,Vanderbilt,Southern U.,111,56,False,final,2:00 PM ET
+6655681,2026-11-27,Le Moyne,Maine,86,90,False,final,2:00 PM ET
+6660925,2026-11-27,South Alabama,Fresno St.,61,81,False,final,2:00 PM ET
+6679558,2026-11-27,UCLA,Georgetown,75,63,False,final,2:30 PM ET
+6649280,2026-11-27,Butler,Bellarmine,92,56,False,final,3:00 PM ET
+6652423,2026-11-27,UAB,AUM,102,62,False,final,3:00 PM ET
+6652487,2026-11-27,UNCW,Princeton,68,66,False,final,3:00 PM ET
+6655322,2026-11-27,Louisiana Tech,Texas St.,70,78,False,final,3:00 PM ET
+6664114,2026-11-27,Baylor,TCU,69,88,False,final,3:00 PM ET
+6653278,2026-11-27,Hofstra,Colgate,49,75,False,final,3:30 PM ET
+6654772,2026-11-27,Bucknell,La Salle,86,89,False,final,3:30 PM ET
+6664120,2026-11-27,Oregon,Maryland,88,73,False,final,3:30 PM ET
+6650677,2026-11-27,Missouri,Ark.-Pine Bluff,97,61,False,final,4:00 PM ET
+6653596,2026-11-27,George Washington,UMBC,91,51,False,final,4:00 PM ET
+6654198,2026-11-27,American,Radford,64,62,False,final,4:00 PM ET
+6655250,2026-11-27,Boston College,Cincinnati,59,70,False,final,4:30 PM ET
+6655604,2026-11-27,Lafayette,Niagara,82,54,False,final,4:30 PM ET
+6653479,2026-11-27,Virginia Tech,Old Dominion,70,61,False,final,5:00 PM ET
+6653798,2026-11-27,Marquette,Texas A&M,76,78,False,final,5:00 PM ET
+6655111,2026-11-27,Kansas,Villanova,65,50,False,final,5:00 PM ET
+6679559,2026-11-27,Saint Mary's (CA),Texas,73,76,False,final,5:00 PM ET
+6653004,2026-11-27,Boise St.,Drake,88,71,False,final,5:30 PM ET
+6664112,2026-11-27,Kansas St.,Michigan,69,98,False,final,5:30 PM ET
+6651133,2026-11-27,Indiana,Bowling Green,93,57,False,final,6:00 PM ET
+6652663,2026-11-27,Penn,Towson,61,72,False,final,6:00 PM ET
+6655081,2026-11-27,Illinois,Western Ky.,116,76,False,final,6:00 PM ET
+6664172,2026-11-27,USC Upstate,Southern Wesleyan,87,78,False,final,6:00 PM ET
+6649388,2026-11-27,East Carolina,N.C. Wesleyan,92,43,False,final,7:00 PM ET
+6651252,2026-11-27,ETSU,Charleston So.,67,76,False,final,7:00 PM ET
+6651636,2026-11-27,North Carolina,West Virginia,59,72,False,final,7:00 PM ET
+6653718,2026-11-27,UC Santa Barbara,Lehigh,75,43,False,final,7:00 PM ET
+6655520,2026-11-27,UCF,Georgia,88,76,False,final,7:00 PM ET
+6650328,2026-11-27,Houston,Oakland,77,46,False,final,7:30 PM ET
+6667302,2026-11-27,Mississippi St.,Penn St.,63,68,False,final,7:30 PM ET
+6653636,2026-11-27,Little Rock,Lane,88,58,False,final,8:00 PM ET
+6654541,2026-11-27,Northwestern,Northeastern,65,61,False,final,8:00 PM ET
+6654636,2026-11-27,Washington St.,Idaho,69,61,False,final,8:00 PM ET
+6655000,2026-11-27,Oral Roberts,Missouri St.,72,66,False,final,8:00 PM ET
+6655268,2026-11-27,North Texas,North Dakota St.,75,73,False,final,8:00 PM ET
+6660592,2026-11-27,UC Davis,Pacific,61,78,False,final,8:00 PM ET
+6664113,2026-11-27,Alabama,Miami (FL),81,87,False,final,8:30 PM ET
+6650643,2026-11-27,Kentucky,Wichita St.,71,73,False,final,9:00 PM ET
+6664119,2026-11-27,Louisville,Tennessee,84,64,False,final,9:00 PM ET
+6653800,2026-11-27,Omaha,Jacksonville St.,78,69,False,final,10:30 PM ET
+6664111,2026-11-27,Gonzaga,Creighton,89,97,False,final,11:00 PM ET
+6664121,2026-11-27,Texas Tech,San Diego St.,78,75,False,final,11:30 PM ET

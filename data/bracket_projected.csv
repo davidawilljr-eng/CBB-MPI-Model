@@ -1,81 +1,81 @@
 Overall Seed,Seed,Region,Team and Record,Conference,Bid Type,MPI,WAB,Bubble Status
-1,1,East,Houston (6-0),big-12,Auto-Bid,27.13,2.57,
-2,1,South,Kansas (6-1),big-12,At-Large,24.98,1.45,
-3,1,Midwest,Tennessee (7-0),sec,Auto-Bid,22.97,2.17,
-4,1,West,Illinois (6-1),big-ten,Auto-Bid,22.48,0.96,
-5,2,West,Arizona (7-1),big-12,At-Large,22.36,2.1,
-6,2,Midwest,Florida (7-1),sec,At-Large,21.83,2.06,
-7,2,South,Gonzaga (5-1),pac-12,Auto-Bid,20.79,1.14,
-8,2,East,Vanderbilt (7-0),sec,At-Large,21.02,1.87,
-9,3,East,Virginia (8-0),acc,Auto-Bid,20.18,2.12,
-10,3,South,Ole Miss (6-1),sec,At-Large,21.05,1.36,
-11,3,Midwest,Alabama (6-1),sec,At-Large,20.35,0.87,
-12,3,West,Indiana (7-0),big-ten,At-Large,19.87,1.77,
-13,4,West,Michigan St. (6-1),big-ten,At-Large,19.79,1.37,
-14,4,Midwest,Baylor (5-2),big-12,At-Large,20.29,0.55,
-15,4,South,UConn (4-2),big-east,Auto-Bid,20.06,0.3,
-16,4,East,Duke (5-2),acc,At-Large,19.87,0.33,
-17,5,East,Texas A&M (6-1),sec,At-Large,19.93,0.99,
-18,5,South,Texas (7-0),sec,At-Large,19.34,1.13,
-19,5,Midwest,Iowa St. (4-2),big-12,At-Large,19.64,-0.38,
-20,5,West,Creighton (6-1),big-east,At-Large,18.66,1.39,
-21,6,West,Texas Tech (6-1),big-12,At-Large,18.63,1.0,
-22,6,Midwest,UCLA (6-1),big-ten,At-Large,18.25,0.74,
-23,6,South,Cincinnati (6-1),big-12,At-Large,17.99,0.6,
-24,6,East,Miami (FL) (6-2),acc,At-Large,17.93,0.4,
-25,7,East,North Carolina (5-1),acc,At-Large,17.36,0.01,
-26,7,South,Auburn (4-3),sec,At-Large,18.85,-0.92,
-27,7,Midwest,BYU (7-1),big-12,At-Large,17.32,1.19,
-28,7,West,Pittsburgh (8-0),acc,At-Large,16.12,2.45,
-29,8,West,Memphis (5-1),american,Auto-Bid,14.69,1.95,
-30,8,Midwest,Utah St. (7-0),pac-12,At-Large,15.97,1.24,
-31,8,South,Minnesota (7-0),big-ten,At-Large,15.42,1.6,
-32,8,East,Louisville (5-1),acc,At-Large,15.28,1.02,
-33,9,East,Xavier (6-1),big-east,At-Large,15.78,0.57,
-34,9,South,Nebraska (7-0),big-ten,At-Large,14.86,1.32,
-35,9,Midwest,Missouri (6-1),sec,At-Large,16.15,-0.02,
-36,9,West,TCU (5-2),big-12,At-Large,15.92,0.03,
-37,10,West,Purdue (4-4),big-ten,At-Large,15.98,-1.83,
-38,10,Midwest,Marquette (4-3),big-east,At-Large,15.66,-0.86,
-39,10,South,LSU (8-0),sec,At-Large,14.8,2.18,
-40,11,West,Arkansas (4-3),sec,At-Large,16.54,-0.67,Opening Round (At-Large Play-In)
-41,11,East,Notre Dame (7-1),acc,At-Large,13.72,1.82,Opening Round (At-Large Play-In)
-42,11,South,Ohio St. (4-3),big-ten,At-Large,14.86,-0.64,Opening Round (At-Large Play-In)
-43,11,Midwest,Southern California (7-1),big-ten,At-Large,14.08,1.03,Opening Round (At-Large Play-In)
-44,11,West,Iowa (4-2),big-ten,At-Large,14.3,-0.26,Opening Round (At-Large Play-In)
-45,11,East,Kentucky (4-2),sec,At-Large,14.95,-0.21,Opening Round (At-Large Play-In)
-46,11,South,DePaul (6-1),big-east,At-Large,13.45,1.17,Opening Round (At-Large Play-In)
-47,11,Midwest,Villanova (5-2),big-east,At-Large,14.01,-0.28,Opening Round (At-Large Play-In)
-48,11,West,San Diego St. (6-1),pac-12,At-Large,12.53,0.66,Opening Round (At-Large Play-In)
-49,11,East,St. John's (NY) (6-1),big-east,At-Large,13.88,0.35,Opening Round (At-Large Play-In)
-50,13,South,New Mexico (4-2),mountain-west,Auto-Bid,10.92,-0.85,
-51,11,Midwest,Rutgers (5-2),big-ten,At-Large,13.32,0.07,Opening Round (At-Large Play-In)
-52,11,West,Virginia Tech (6-1),acc,At-Large,12.16,0.85,Opening Round (At-Large Play-In)
-53,14,West,Saint Mary's (CA) (6-1),wcc,Auto-Bid,9.81,0.63,
-54,14,Midwest,VCU (5-2),atlantic-10,Auto-Bid,10.18,0.41,
-55,14,South,Murray St. (6-1),mvc,Auto-Bid,8.09,0.21,
-56,14,East,High Point (7-0),big-south,Auto-Bid,2.9,1.03,
-57,15,East,Columbia (5-1),ivy-league,Auto-Bid,4.17,-0.03,
-58,15,South,Wright St. (5-2),horizon,Auto-Bid,3.36,-0.58,
-59,15,Midwest,UC Santa Barbara (4-0),big-west,Auto-Bid,3.59,0.7,
-60,15,West,Miami (OH) (5-0),mac,Auto-Bid,2.86,1.13,
-61,15,West,Western Ky. (3-2),cusa,Auto-Bid,3.13,-0.54,
-62,15,Midwest,James Madison (4-2),sun-belt,Auto-Bid,2.43,-0.58,
-63,15,South,Tennessee Tech (4-2),socon,Auto-Bid,0.53,-0.26,
-64,15,East,Central Ark. (3-3),uac-,Auto-Bid,0.08,-0.46,
-65,16,East,UT Martin (3-3),ovc,Auto-Bid,-1.85,-1.54,Opening Round (Auto-Bid Play-In)
-66,16,South,William & Mary (4-2),caa,Auto-Bid,-1.44,-0.63,Opening Round (Auto-Bid Play-In)
-67,16,Midwest,Siena (5-2),metro,Auto-Bid,-3.09,-0.37,Opening Round (Auto-Bid Play-In)
-68,16,West,Montana St. (2-4),big-sky,Auto-Bid,-1.8,-1.6,Opening Round (Auto-Bid Play-In)
-69,16,East,St. Thomas (MN) (4-4),summit-league,Auto-Bid,-2.14,-2.33,Opening Round (Auto-Bid Play-In)
-70,16,South,Boston U. (5-2),patriot,Auto-Bid,-3.8,-0.58,Opening Round (Auto-Bid Play-In)
-71,16,Midwest,Lamar University (2-2),southland,Auto-Bid,-2.94,-1.31,Opening Round (Auto-Bid Play-In)
-72,16,West,Bellarmine (3-5),asun,Auto-Bid,-3.84,-1.95,Opening Round (Auto-Bid Play-In)
-73,16,East,UMass Lowell (3-2),america-east,Auto-Bid,-4.51,-0.74,Opening Round (Auto-Bid Play-In)
-74,16,South,Howard (3-3),meac,Auto-Bid,-7.58,-1.54,Opening Round (Auto-Bid Play-In)
-75,16,Midwest,FDU (3-3),nec,Auto-Bid,-8.66,-0.69,Opening Round (Auto-Bid Play-In)
-76,16,West,Bethune-Cookman (0-6),swac,Auto-Bid,-9.42,-2.77,Opening Round (Auto-Bid Play-In)
-77,-,-,West Virginia (4-2),big-12,At-Large,13.61,0.38,First Four Out
-78,-,-,Michigan (3-4),big-ten,At-Large,13.97,-0.91,First Four Out
-79,-,-,Oklahoma St. (5-2),big-12,At-Large,13.33,0.1,First Four Out
-80,-,-,NC State (6-1),acc,At-Large,11.45,-0.0,First Four Out
+1,1,East,Houston (7-0),big-12,Auto-Bid,26.79,2.64,
+2,1,South,Kansas (7-1),big-12,At-Large,25.83,1.88,
+3,1,Midwest,Illinois (7-1),big-ten,Auto-Bid,22.89,1.12,
+4,1,West,Arizona (7-1),big-12,At-Large,22.41,2.13,
+5,2,West,Florida (7-1),sec,Auto-Bid,22.2,2.15,
+6,2,Midwest,Virginia (9-0),acc,Auto-Bid,21.0,2.78,
+7,2,South,Vanderbilt (8-0),sec,At-Large,20.91,1.93,
+8,2,East,Indiana (8-0),big-ten,At-Large,20.2,1.87,
+9,3,East,Ole Miss (6-1),sec,At-Large,21.06,1.37,
+10,3,South,Tennessee (7-1),sec,At-Large,20.91,1.85,
+11,3,Midwest,UConn (4-2),big-east,Auto-Bid,20.17,0.34,
+12,3,West,Gonzaga (5-2),pac-12,Auto-Bid,19.68,0.61,
+13,4,West,Michigan St. (6-1),big-ten,At-Large,19.65,1.35,
+14,4,Midwest,Creighton (7-1),big-east,At-Large,19.6,2.21,
+15,4,South,Texas A&M (7-1),sec,At-Large,20.08,1.7,
+16,4,East,Duke (5-2),acc,At-Large,19.89,0.34,
+17,5,East,Texas (8-0),sec,At-Large,19.02,1.62,
+18,5,South,Miami (FL) (7-2),acc,At-Large,18.88,1.26,
+19,5,Midwest,Cincinnati (7-1),big-12,At-Large,18.89,1.16,
+20,5,West,Alabama (6-2),sec,At-Large,19.37,0.32,
+21,6,West,UCLA (7-1),big-ten,At-Large,18.74,1.09,
+22,6,Midwest,Texas Tech (7-1),big-12,At-Large,18.53,1.47,
+23,6,South,Iowa St. (4-3),big-12,At-Large,18.85,-0.76,
+24,6,East,Louisville (6-1),acc,At-Large,17.41,1.64,
+25,7,East,Auburn (4-3),sec,At-Large,18.97,-0.86,
+26,7,South,TCU (6-2),big-12,At-Large,18.07,0.82,
+27,7,Midwest,Memphis (6-1),american,Auto-Bid,14.94,2.56,
+28,7,West,Pittsburgh (8-0),acc,At-Large,16.2,2.49,
+29,8,West,Baylor (5-3),big-12,At-Large,18.1,0.02,
+30,8,Midwest,BYU (7-1),big-12,At-Large,17.39,1.21,
+31,8,South,Utah St. (7-0),pac-12,At-Large,16.06,1.26,
+32,8,East,Minnesota (7-0),big-ten,At-Large,15.46,1.62,
+33,9,East,Nebraska (7-0),big-ten,At-Large,15.0,1.38,
+34,9,South,North Carolina (5-2),acc,At-Large,15.48,-0.57,
+35,9,Midwest,St. John's (NY) (7-1),big-east,At-Large,14.77,0.99,
+36,9,West,Arkansas (4-3),sec,At-Large,16.63,-0.64,
+37,10,West,Missouri (7-1),sec,At-Large,15.87,0.0,
+38,10,Midwest,LSU (8-0),sec,At-Large,14.73,2.15,
+39,10,South,West Virginia (5-2),big-12,At-Large,15.34,1.08,
+40,11,West,Xavier (6-2),big-east,At-Large,14.8,0.15,Opening Round (At-Large Play-In)
+41,11,East,Purdue (4-4),big-ten,At-Large,15.96,-1.84,Opening Round (At-Large Play-In)
+42,11,South,Notre Dame (7-1),acc,At-Large,13.73,1.82,Opening Round (At-Large Play-In)
+43,11,Midwest,Marquette (4-4),big-east,At-Large,15.7,-1.24,Opening Round (At-Large Play-In)
+44,11,West,Michigan (4-4),big-ten,At-Large,15.62,-0.43,Opening Round (At-Large Play-In)
+45,11,East,Ohio St. (4-3),big-ten,At-Large,14.82,-0.64,Opening Round (At-Large Play-In)
+46,11,South,Iowa (4-2),big-ten,At-Large,14.25,-0.26,Opening Round (At-Large Play-In)
+47,11,Midwest,Southern California (7-1),big-ten,At-Large,14.15,1.06,Opening Round (At-Large Play-In)
+48,11,West,DePaul (6-1),big-east,At-Large,13.46,1.17,Opening Round (At-Large Play-In)
+49,11,East,San Diego St. (6-2),pac-12,At-Large,12.72,0.37,Opening Round (At-Large Play-In)
+50,13,South,New Mexico (4-2),mountain-west,Auto-Bid,11.01,-0.82,
+51,11,Midwest,Rutgers (5-2),big-ten,At-Large,13.33,0.08,Opening Round (At-Large Play-In)
+52,13,West,Saint Mary's (CA) (6-2),wcc,Auto-Bid,9.99,0.2,
+53,11,East,Kentucky (4-3),sec,At-Large,14.19,-0.88,Opening Round (At-Large Play-In)
+54,14,Midwest,VCU (5-2),atlantic-10,Auto-Bid,10.22,0.43,
+55,14,South,Murray St. (6-1),mvc,Auto-Bid,7.81,0.19,
+56,14,East,UC Santa Barbara (5-0),big-west,Auto-Bid,5.0,0.77,
+57,15,East,High Point (7-0),big-south,Auto-Bid,2.96,1.04,
+58,15,South,Columbia (5-1),ivy-league,Auto-Bid,4.32,-0.03,
+59,15,Midwest,Wright St. (5-2),horizon,Auto-Bid,3.32,-0.57,
+60,15,West,Miami (OH) (5-0),mac,Auto-Bid,2.82,1.13,
+61,15,West,James Madison (4-2),sun-belt,Auto-Bid,2.55,-0.55,
+62,15,Midwest,Western Ky. (3-3),cusa,Auto-Bid,2.57,-0.7,
+63,15,South,Tennessee Tech (4-2),socon,Auto-Bid,0.46,-0.28,
+64,15,East,Central Ark. (3-3),uac-,Auto-Bid,0.14,-0.44,
+65,16,East,UNCW (5-1),caa,Auto-Bid,-1.16,-0.25,Opening Round (Auto-Bid Play-In)
+66,16,South,UMass Lowell (4-2),america-east,Auto-Bid,-2.4,-0.54,Opening Round (Auto-Bid Play-In)
+67,16,Midwest,UT Martin (3-3),ovc,Auto-Bid,-1.85,-1.53,Opening Round (Auto-Bid Play-In)
+68,16,West,Siena (5-2),metro,Auto-Bid,-3.02,-0.36,Opening Round (Auto-Bid Play-In)
+69,16,East,Lamar University (2-2),southland,Auto-Bid,-2.88,-1.29,Opening Round (Auto-Bid Play-In)
+70,16,South,Montana St. (2-4),big-sky,Auto-Bid,-1.85,-1.61,Opening Round (Auto-Bid Play-In)
+71,16,Midwest,South Dakota St. (3-2),summit-league,Auto-Bid,-2.6,-1.02,Opening Round (Auto-Bid Play-In)
+72,16,West,Boston U. (5-2),patriot,Auto-Bid,-3.79,-0.53,Opening Round (Auto-Bid Play-In)
+73,16,East,Bellarmine (3-6),asun,Auto-Bid,-4.68,-2.41,Opening Round (Auto-Bid Play-In)
+74,16,South,Howard (3-3),meac,Auto-Bid,-7.75,-1.57,Opening Round (Auto-Bid Play-In)
+75,16,Midwest,FDU (3-3),nec,Auto-Bid,-8.58,-0.65,Opening Round (Auto-Bid Play-In)
+76,16,West,Alabama A&M (2-3),swac,Auto-Bid,-9.44,-1.93,Opening Round (Auto-Bid Play-In)
+77,-,-,Wisconsin (5-2),big-ten,At-Large,12.77,-0.65,First Four Out
+78,-,-,Virginia Tech (7-1),acc,At-Large,12.03,1.02,First Four Out
+79,-,-,Seton Hall (6-1),big-east,At-Large,11.95,1.49,First Four Out
+80,-,-,Florida St. (6-1),acc,At-Large,11.79,-0.01,First Four Out
